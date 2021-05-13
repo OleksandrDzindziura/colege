@@ -1,0 +1,100 @@
+body {
+      &.responsive {
+          @media (max-width: 1024px) {
+              &.blog, &.archive {
+                  #main-content {
+                      .content-area {
+                          main {
+                              border-right: 0;
+                              padding-right: 15px;
+                          }
+
+                      }
+                  }
+              }
+          }
+          @media (max-width:767px) {
+              &.blog, &.archive {
+                  .site-content {
+                      .blog-content {
+                          article {
+                              .entry-header {
+                                  .entry-title{
+                                      line-height: 24px;
+                                      a {
+                                          font-size: 20px;
+                                      }
+                                  }
+                              }
+                              .entry-meta {
+                                  display: inline;
+                                  > span {
+                                      display: flex;
+                                      align-items: center;
+                                      justify-content: end;
+                                      margin-bottom: 5px;
+                                      a {
+                                          &:after {
+                                              display: none;
+                                          }
+                                      }
+                                      &.author {
+                                          display: inline-flex;
+                                          justify-content: end;
+                                          i {
+                                              margin-right: 18px;
+                                          }
+                                      }
+                                  }
+                              }
+                              .content-inner {
+                                  .entry-content {
+                                      .entry-header {
+                                          .entry-title {
+                                              line-height: 30px;
+                                              a{
+                                                  font-size: 24px;
+                                              }
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                          &:not(.blog-list-3) {
+                              .column-1-blog-archive {
+                                  margin-bottom: 40px;
+                                  padding-bottom: 40px;
+                              }
+                          }
+                      }
+                  }
+              }
+
+          }
+
+          @media (max-width: 600px) {
+              &.blog, &.archive {
+                  .entry-button-meta {
+                      .readmore {
+                          a {
+                            padding: 8px 40px;
+                          }
+                      }
+                  }
+                  .site-content {
+                      .blog-content {
+                          article {
+                              &.none-has-post-thumbnail {
+                                  .content-inner {
+                                      display: block;
+                                  }
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+
+
+      }
+}

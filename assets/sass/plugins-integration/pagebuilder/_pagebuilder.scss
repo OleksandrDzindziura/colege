@@ -1,0 +1,103 @@
+.thim_overlay_171717075 {
+  position: relative;
+  &:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17,17,17,0.75);
+  }
+  > .panel-grid-cell {
+    position: relative;
+  }
+}
+
+.item-inline {
+  > .panel-grid-cell {
+    > .widget {
+      display: inline-block;
+    }
+  }
+}
+.elementor-widget:not(:last-child) {
+  margin-bottom: 0;
+}
+.menu-right, .thim-topbar-right {
+  .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 0;
+  }
+  .widget_text {
+    .elementor-section-wrap, .elementor-widget-wrap {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+
+// style container pagebuilder elementor
+@media (min-width: 1400px) {
+  .elementor-element.thim-container-home-5 {
+      .elementor-container {
+          max-width: 1160px !important;
+      }
+  }
+}
+
+// thim-wrap-shortcode-right-menu
+header#masthead.header_v4 {
+    .container {
+        .header-wrapper {
+            .menu-right {
+                .thim-wrap-shortcode-right-menu {
+                    position: absolute;
+                    top: calc(100% + 6px);
+                    right: 0;
+                    display: flex;
+                    transition: all .3s;
+                    left: auto;
+                    .elementor-widget-wrap {
+                        display: flex;
+                        z-index: 9;
+                        &>.elementor-widget {
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.affix {
+        .header-wrapper {
+            .menu-right {
+                .thim-wrap-shortcode-right-menu {
+                    position: relative;
+                    top:0;
+                }
+            }
+        }
+    }
+}
+
+// style elementor-widget-thim-button
+.thim-background-baner {
+    .elementor-widget-thim-button {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+// style responsive thim-faq-wrap
+body{
+    &.responsive {
+        @media (max-width: 1200px) {
+            div.thim-faq-wrap {
+                &>.elementor-column-wrap {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

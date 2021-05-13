@@ -1,0 +1,27 @@
+.bp-element-twitter.layout-slider {
+    .list-tweets {
+        .tweet-item {
+            .top {
+                a {
+                    i {
+                        color: $thim_body_primary_color !important;
+                    }
+                }
+            }
+            .tweet-content {
+                a {
+                    color: $thim_body_primary_color !important;
+                }
+            }
+        }
+    }
+    .wrap-dot-slick {
+        .dots-slick {
+            .slick-active {
+                span {
+                    background: $thim_body_primary_color !important;
+                }
+            }
+        }
+    }
+}

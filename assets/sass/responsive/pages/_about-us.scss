@@ -1,0 +1,12 @@
+body {
+  &.responsive {
+      @media (max-width: 1024px) {
+          .thim-about-us-area {
+              > .wpb_column {
+                  width: 100%;
+              }
+          }
+      }
+
+  }
+}

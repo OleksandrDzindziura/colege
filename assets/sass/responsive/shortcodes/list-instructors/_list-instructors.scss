@@ -1,0 +1,89 @@
+body {
+    &.responsive {
+        @media (max-width: 1400px) {
+            div.bp-element-list-instructors.layout-slider-2 {
+                .wrap-element {
+                    .slide-instructor {
+                        .wrap-arrow-slick {
+                            .arow-slick.prev-slick {
+                                margin-left: -45px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1024px) {
+            div.bp-element-list-instructors {
+                &.layout-slider-2 {
+                    margin-right: 80px !important;
+                    padding-top: 80px !important;
+                    .wrap-element {
+                        padding-left: 40px;
+                    }
+                }
+            }
+        }
+        @media (max-width: 815px) {
+            div.bp-element-list-instructors {
+                .item-teacher {
+                    .content {
+                        .social-link {
+                            .item {
+                                width: 30px;
+                                height: 30px;
+                                margin:-15px 5px 0 5px;
+                            }
+                        }
+                    }
+                }
+                &.layout-slider-2 {
+                    .wrap-element {
+                        .element-title {
+                            width: 100%;
+                            text-align: center;
+                            padding-top: 0;
+                        }
+                        .slide-instructor {
+                            .instructor-item {
+                                .instructor-image {
+                                    display: none;
+                                }
+                                .instructor-text {
+                                    text-align: center;
+                                    padding-bottom: 90px;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            div.bp-element-list-instructors {
+                &.layout-slider-2 {
+                    margin-right: 0 !important;
+                    .wrap-element {
+                        padding-left: 0 !important;
+                    }
+                }
+            }
+        }
+        @media (max-width: 600px) {
+            div.bp-element-list-instructors {
+                .item-teacher {
+                    .content {
+                        .social-link {
+                            .item {
+                                width: 40px;
+                                height: 40px;
+                                margin:-20px 5px 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

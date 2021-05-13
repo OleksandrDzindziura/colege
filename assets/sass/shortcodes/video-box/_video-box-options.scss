@@ -1,0 +1,51 @@
+.bp-element {
+    &.bp-element-video-box {
+        &.layout-2 {
+            .content {
+                .btn-open-video {
+                    background: $thim_body_primary_color;
+                    &:hover {
+                        background: darken($thim_body_primary_color, 10%);
+                    }
+                }
+            }
+        }
+        &.layout-4 {
+            .video-box {
+                .overlay {
+                    .btn-open-video {
+                        &:hover {
+                            border-color: $thim_body_primary_color;
+                            color: $thim_body_primary_color;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        &.layout-3 {
+            .video-box {
+                .overlay {
+                    .btn-open-video {
+                        &:hover {
+                            border-color: $thim_body_primary_color;
+                            color: $thim_body_primary_color;
+                        }
+                    }
+                }
+            }
+        }
+        &.layout-5 {
+            .video-box {
+                .overlay {
+                    background: $thim_body_primary_color;
+                    background: -webkit-linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color);
+                    background: -o-linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color);
+                    background: -moz-linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color);
+                    background: linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color);
+                }
+            }
+        }
+    }
+}

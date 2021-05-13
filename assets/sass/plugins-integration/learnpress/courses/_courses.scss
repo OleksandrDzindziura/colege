@@ -1,0 +1,248 @@
+.grid-courses {
+  .course-item {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    transition: all 0.3s;
+    position: relative;
+    margin-bottom: 30px;
+
+    &:hover {
+      box-shadow: 13px 15px 15px 0px rgba(105, 105, 105, .08);
+
+      .image {
+        img {
+          transform: scale(1.1);
+        }
+      }
+
+    }
+
+    .link-item {
+      position: absolute;
+      z-index: 11;
+      display: block;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    .image {
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        transition: all .3s;
+      }
+
+    }
+
+    .content {
+      padding: 0px 15px 18px 15px;
+
+      .ava {
+        width: 68px;
+        height: 68px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        z-index: 100;
+        margin: -34px auto 9px auto;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .name {
+        text-align: center;
+        position: relative;
+        z-index: 101;
+
+        a {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.5;
+          color: #292929;
+          text-transform: uppercase;
+          transition: all 0.2s;
+
+          &:hover {
+            text-decoration: none;
+            color: #f8b944;
+          }
+        }
+      }
+
+      .star {
+        font-size: 12px;
+        color: #f8b944;
+        text-align: center;
+        line-height: 14px;
+        letter-spacing: -1px;
+        margin-bottom: 21px;
+      }
+
+      .title {
+        text-align: center;
+        position: relative;
+        z-index: 101;
+        min-height: 50px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        a {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 1.444444;
+          color: #292929;
+          text-align: center;
+          transition: all 0.2s;
+
+          &:hover {
+            text-decoration: none;
+            color: #f8b944;
+          }
+        }
+      }
+
+      .description {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #7c7c7c;
+        text-align: center;
+      }
+    }
+
+    .info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #e5e5e5;
+      padding: 17px 18px 14px 18px;
+      .price {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.3;
+        color: #292929;
+        padding-right: 15px;
+        &.free {
+          color: #f8b944;
+        }
+        .old-price {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 1.625;
+          color: #747474;
+          position: relative;
+          margin-left: 8px;
+
+          &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: calc(100% + 4px);
+            height: 1px;
+            background: #747474;
+            top: calc(50% - 1px);
+            left: -2px;
+          }
+        }
+      }
+
+      .numbers {
+        position: relative;
+        z-index: 101;
+
+        a {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 1.625;
+          color: #747474;
+          transition: all 0.2s;
+
+          i {
+            font-size: 18px;
+            color: #cacaca;
+            transition: all 0.2s;
+          }
+
+          &:hover {
+            text-decoration: none;
+            color: #f8b944;
+
+            i {
+              color: #f8b944;
+            }
+          }
+        }
+
+        .contact {
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+}
+
+nav.learn-press-pagination {
+  border-top: 1px solid rgba(124,124,124,0.2);
+  margin-top: 30px;
+  padding-top: 50px;
+  ul.page-numbers {
+    > li {
+      a,
+      span {
+        border: none;
+        font-size: 18px;
+        width: 30px;
+        padding: 0;
+        text-align: center;
+        font-weight: 500;
+        line-height: 30px;
+        display: block;
+
+      }
+      a {
+        color: #292929;
+      }
+      span {
+        background-color: #f8b944;
+        color: #ffffff;
+      }
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .grid-courses .course-item {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .grid-courses {
+    .course-item {
+      .info {
+        padding-right: 10px;
+        padding-left: 10px;
+        .price {
+          font-size: 18px;
+          padding-right: 5px;
+          .old-price {
+            margin-left: 2px;
+          }
+        }
+        .numbers {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

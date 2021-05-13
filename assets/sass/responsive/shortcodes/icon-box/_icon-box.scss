@@ -1,0 +1,68 @@
+body {
+    &.responsive {
+        @media (min-width: 1025px) and (max-width: 1400px) {
+            div.row_icon_box_slider {
+                .bp-element-icon-box.icon-left {
+                    .icon-box {
+                        .content {
+                            .description {
+                                display: -webkit-box;
+                                -webkit-line-clamp: 2;
+                                -webkit-box-orient: vertical;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 815px) {
+            div.bp-element-icon-box {
+                &.layout-6 {
+                    .icon-box {
+                        padding:25px 15px;
+                    }
+                }
+            }
+        }
+        @media (min-width: 768px) and (max-width: 993px) {
+            div.row_icon_box_slider {
+                margin-top: -295px!important;
+                .bp-element-icon-box.icon-left {
+                    .icon-box {
+                        .icon-image {
+                            margin-top: -15px !important;
+                            margin-bottom: 15px !important;
+                            margin-right: 0 !important;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            div.row_icon_box_slider {
+                margin-top: 0!important;
+            }
+            div.bp-element-icon-box {
+                &.layout-3 {
+                    .icon-box {
+                        .icon-image {
+                            margin-top: 0 !important;
+                        }
+                    }
+                }
+                &.layout-1.mobile-icon-pb-20 {
+                    padding-bottom: 20px;
+                }
+                &.layout-6 {
+                    text-align: center !important;
+                    .icon-box {
+                        .icon-image {
+                            margin-left: auto !important;
+                            margin-right: auto !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

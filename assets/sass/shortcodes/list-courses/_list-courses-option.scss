@@ -1,0 +1,79 @@
+body.left_courses{
+    .wrapper-item-course {
+        .item-course {
+             .pic {
+                 .price {
+                     background: darken($thim_body_primary2_color, 10%);
+                     background: -webkit-linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                     background: -o-linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                     background: -moz-linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                     background: linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                 }
+             }
+         }
+        &:nth-child(odd){
+            .item-course {
+                .pic {
+                    border-bottom:5px solid  $thim_body_primary_color;
+                    .price {
+                        background: darken($thim_body_primary_color, 10%);
+                        background: -webkit-linear-gradient(left, darken($thim_body_primary_color, 10%), $thim_body_primary_color);
+                        background: -o-linear-gradient(left, darken($thim_body_primary_color, 10%), $thim_body_primary_color);
+                        background: -moz-linear-gradient(left, darken($thim_body_primary_color, 10%), $thim_body_primary_color);
+                        background: linear-gradient(left, darken($thim_body_primary_color, 10%), $thim_body_primary_color);
+                    }
+                }
+            }
+        }
+        &:nth-child(even){
+            .item-course {
+                .pic {
+                    border-bottom:5px solid $thim_body_primary2_color;
+                    .price {
+                        background: darken($thim_body_primary2_color, 10%);
+                        background: -webkit-linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                        background: -o-linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                        background: -moz-linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                        background: linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// style list courses in shortcode
+div.bp-element.bp-element-list-courses {
+    &.layout-grid {
+        .wrapper-item-course {
+            &:nth-child(odd){
+                .item-course {
+                    .pic {
+                        border-bottom:5px solid  $thim_body_primary_color;
+                        .price {
+                            background: darken($thim_body_primary_color, 10%);
+                            background: -webkit-linear-gradient(left, darken($thim_body_primary_color, 10%), $thim_body_primary_color);
+                            background: -o-linear-gradient(left, darken($thim_body_primary_color, 10%), $thim_body_primary_color);
+                            background: -moz-linear-gradient(left, darken($thim_body_primary_color, 10%), $thim_body_primary_color);
+                            background: linear-gradient(left, darken($thim_body_primary_color, 10%), $thim_body_primary_color);
+                        }
+                    }
+                }
+            }
+            &:nth-child(even){
+                .item-course {
+                    .pic {
+                        border-bottom:5px solid $thim_body_primary2_color;
+                        .price {
+                            background: darken($thim_body_primary2_color, 10%);
+                            background: -webkit-linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                            background: -o-linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                            background: -moz-linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                            background: linear-gradient(left, darken($thim_body_primary2_color, 10%), $thim_body_primary2_color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

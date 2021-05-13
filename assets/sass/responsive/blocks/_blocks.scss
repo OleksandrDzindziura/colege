@@ -1,0 +1,152 @@
+body {
+    &.responsive {
+        @media (max-width: 1400px) and (min-width: 1024px)  {
+            #bp-popup-login{
+                overflow: hidden;
+            }
+            .responsive-home2-laptop-1 {
+                > .vc_col-sm-8 {
+                    width: 62%;
+                }
+                > .vc_col-sm-4 {
+                    width: 38%;
+                }
+            }
+        }
+
+        @media (max-width: 815px) {
+            // responsive thim-line-right
+            div.thim-line-right {
+                &:before {
+                    display: none;
+                }
+            }
+            div.tablet-hiden-background {
+                background-image: none!important;
+            }
+
+            div.tablet-padding {
+                padding-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            // responsive block registration form
+            .bl-registration-form.yikes-easy-mc-form {
+                label {
+                    width: 100%;;
+                }
+            }
+
+            // responsive contact form
+            .form-contactpage {
+                .wrap-input {
+                    width: 100%;
+                }
+            }
+
+            // breadcrumb page
+            .page-title {
+                .content {
+                    .breadcrumb-content {
+                        .breadcrumbs-wrapper {
+                            .breadcrumbs {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+            // thim-want-to-learn-more
+            div.thim-want-to-learn-more {
+                .bp-element-heading {
+                    .title {
+                        font-size: 40px;
+                    }
+                }
+            }
+
+            div.vc_row{
+                &.thim-bg-full-left {
+                    height: auto;
+                }
+                &.thim-bg-full-right {
+                    height: auto;
+                }
+            }
+
+            // block info explore eduma
+            .bl-info-explore-eduma {
+                .meta-info {
+                    width: 130px;
+                    margin-bottom: 30px;
+                }
+
+                .description {
+                    width: 100%;
+                    padding-left: 0;
+                }
+            }
+
+            div.main-top {
+                .content h2 {
+                    font-size: 30px;
+                }
+            }
+
+            // hidden background image in mobile
+            div.mobile-hiden-background {
+                background-image: none!important;
+            }
+
+            //mobile padding left and right
+            div.mobile-padding-30 {
+                padding-left: 30px !important;
+                padding-right: 30px !important;
+            }
+
+            div.vc_custom_1539327003129 {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            div.mobile-left {
+                text-align: left !important;
+            }
+
+            .bl-school-eduma-content {
+                p {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        @media (max-width:480px) {
+            div.page-title {
+                .content {
+                    h1 {
+                        font-size: 40px;
+                    }
+                    .description {
+                        line-height: 1.555555;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+
+            div.mobile-center {
+                text-align: center !important;
+            }
+            div.mobile-width-100{
+                width: 100% !important;
+            }
+            div.mobile-margin-0>div{
+                margin: 0 !important;
+            }
+        }
+    }
+}

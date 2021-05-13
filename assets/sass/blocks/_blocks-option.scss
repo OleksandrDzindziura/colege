@@ -1,0 +1,270 @@
+/*\
+ *
+ * Page title
+ *
+\*/
+.page-title {
+	.content {
+		.breadcrumb-content {
+			.breadcrumbs-wrapper {
+				.breadcrumbs {
+					li {
+						a {
+							&:hover {
+								color: $thim_body_primary_color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*\
+ *
+ * block registration form
+ *
+\*/
+.bl-registration-form.yikes-easy-mc-form {
+	button {
+		background: $thim_body_primary_color;
+		&:hover {
+			background: darken($thim_body_primary_color, 20%);
+		}
+	}
+	label:before {
+		color: $thim_body_primary_color;
+	}
+}
+
+/*\
+ *
+ * block why choose list
+ *
+\*/
+.bl-why-choose-list {
+	li {
+		a {
+			&:hover {
+				color: $thim_body_primary_color;
+			}
+		}
+		&::before {
+			color: $thim_body_primary_color;
+		}
+	}
+}
+
+
+/*\
+ *
+ * block subscribe form
+ *
+\*/
+.bl-subscribe-form {
+	label {
+		input {
+			color: $thim_body_primary2_color;
+		}
+	}
+
+	button {
+		background: $thim_body_primary_color;
+		&:hover {
+			background: darken($thim_body_primary_color, 10%);
+			border-color: darken($thim_body_primary_color, 10%);
+		}
+	}
+}
+
+
+/*\
+ *
+ * Page title
+ *
+\*/
+.page-title {
+	.content {
+		.breadcrumb-content {
+			.breadcrumbs-wrapper {
+				.breadcrumbs {
+					li {
+						a {
+							&:hover {
+								color: $thim_body_primary_color;
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
+
+/*\
+ *
+ * block working hours list
+ *
+\*/
+.bl-working-hours-list {
+	li {
+
+		.hour {
+			color: $thim_body_primary_color;
+		}
+	}
+}
+
+/*\
+ *
+ * block registration form
+ *
+\*/
+.bl-registration-form.yikes-easy-mc-form {
+	label {
+		input {
+			&::-webkit-input-placeholder {
+				color: $thim_body_primary_color;
+			}
+			&:-moz-placeholder {
+				color: $thim_body_primary_color;
+			}
+			&::-moz-placeholder {
+				color: $thim_body_primary_color;
+			}
+			&:-ms-input-placeholder {
+				color: $thim_body_primary_color;
+			}
+		}
+	}
+}
+
+/*\
+ *
+ * block questions
+ *
+\*/
+.bl-questions {
+	.questions-item {
+		.question {
+			i {
+				color: $thim_body_primary_color;
+			}
+		}
+	}
+}
+
+/*\
+ *
+ * block contact form
+ *
+\*/
+.wpcf7-form .form-contactpage {
+	input[type="submit"] {
+		&:hover {
+			background: darken($thim_body_primary_color,10%);
+		}
+
+	}
+}
+
+/*\
+ *
+ * block Open day
+ *
+\*/
+.bl-open-day {
+
+	.info {
+
+		p {
+
+			i {
+				color: $thim_body_primary_color;
+			}
+		}
+	}
+}
+
+/*\
+ *
+ * Want to learn more
+ *
+\*/
+.thim-want-to-learn-more {
+	.wrap-form {
+		.more-info {
+			a {
+				color: $thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.programs-menu {
+	ul {
+		li {
+			a {
+				&:hover {
+					color: $thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+// focus input form mailchimp
+.yikes-mailchimp-container {
+	input:focus {
+		border-color: $thim_body_primary_color !important;
+	}
+}
+
+/*
+Share text lading
+ */
+.share-text-landing {
+	.icon-share {
+
+		.icon-social {
+			&:hover {
+				background: $thim_body_primary_color;
+				border-color: $thim_body_primary_color;
+			}
+		}
+	}
+}
+
+/*
+	widget category
+*/
+.widget-area {
+	aside.widget.widget_categories {
+		ul {
+			li:hover {
+				color: $thim_body_primary_color;
+				a {
+					color: $thim_body_primary_color;
+				}
+				.count {
+					color: $thim_body_primary_color;
+				}
+
+			}
+		}
+	}
+}
+
+.bl-open-day {
+	.info {
+		i {
+			color: $thim_body_primary_color;
+		}
+	}
+}
+
+div.text-hover a:hover {
+	color: $thim_body_primary_color;
+}

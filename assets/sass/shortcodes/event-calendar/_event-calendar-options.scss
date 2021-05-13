@@ -1,0 +1,43 @@
+.bp-element.bp-element-event-calendar {
+  .wrap-calendar {
+    .ui-datepicker-inline {
+      .ui-datepicker-header {
+        .ui-datepicker-prev,
+        .ui-datepicker-next {
+          &:hover:after {
+            color: darken($thim_body_primary_color,10%);
+          }
+        }
+
+        .ui-datepicker-next {
+          &::after {
+            color: $thim_body_primary_color;
+          }
+        }
+
+        .ui-datepicker-prev {
+          &::after {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+
+      .ui-datepicker-calendar {
+        tbody {
+          td {
+            a {
+              &.ui-state-highlight {
+                background: $thim_body_primary_color;
+              }
+            }
+            &.have-event {
+              &::after {
+                background-color: $thim_body_primary_color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

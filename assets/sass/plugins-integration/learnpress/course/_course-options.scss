@@ -1,0 +1,328 @@
+.lp-label {
+  color: $thim_body_primary_color;
+}
+.question-numbers {
+  li {
+    &.current {
+      a {
+        background-color: $thim_body_primary_color;
+        border-color: $thim_body_primary_color;
+      }
+    }
+  }
+}
+.single-lp_course {
+  .entry-content {
+    .entry-button-meta {
+      .entry-meta {
+        .list-inline-item {
+          .forum-link, span.cat-links {
+            a {
+              &:hover {
+                color: $thim_body_primary_color;
+              }
+            }
+          }
+        }
+      }
+    }
+    .course-thumbnail {
+      .play-button {
+        .video-thumbnail {
+          &:hover:before {
+            color: $thim_body_primary_color;
+            border-color: $thim_body_primary_color;
+          }
+        }
+      }
+      .time {
+        background:$thim_body_primary_color;
+      }
+    }
+  }
+  .course-description {
+    #tab-overview {
+      ul {
+        li {
+          &:before {
+            color:$thim_body_primary_color;
+          }
+        }
+      }
+    }
+  }
+  .reviews {
+    .average-rating {
+      border: 3px solid $thim_body_primary_color;
+      .number-rate {
+        color: $thim_body_primary_color;
+      }
+      .star {
+        i {
+          color: $thim_body_primary_color;
+        }
+      }
+
+      .review-stars-rated {
+        .review-stars {
+          &.empty {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+
+      .review-number {
+        font-size: 16px;
+        font-weight: 400;
+        color: #2b3339;
+        text-transform: capitalize;
+      }
+    }
+
+    .detailed_rating {
+      .course-rate {
+        .review-bar {
+          .rating {
+            background:$thim_body_primary_color;
+          }
+        }
+      }
+    }
+  }
+  .instructor {
+    .list {
+      .item {
+        .content {
+          .title {
+            a {
+              &:hover {
+                color: $thim_body_primary_color;
+              }
+            }
+          }
+        }
+        .pic {
+          .social-link {
+            a {
+              &:hover {
+                i {
+                  color: $thim_body_primary_color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // dropdown courses
+  .course-curriculum {
+    .curriculum-sections {
+      .section {
+        .section-heading {
+          &::before {
+            color: $thim_body_primary_color;
+          }
+        }
+
+        .section-content {
+          .course-item {
+            .course-format-icon {
+              color: $thim_body_primary_color;
+            }
+
+            .section-item-link {
+              .course-item-meta {
+                .lp-label-preview,
+                .final-quiz,
+                .count-questions {
+                  color: $thim_body_primary_color;
+                }
+                .item-has-status {
+                  &.item-status-completed {
+                    &:before {
+                      color: $thim_body_primary_color;
+                    }
+                  }
+                }
+              }
+
+              &:hover {
+                .item-name,
+                .course-item-meta {
+                  color: $thim_body_primary_color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+    /////////////////
+    .courses-lessons {
+      white-space: nowrap;
+    }
+  }
+  .info-bar {
+    .purchase-course,
+    .course-external-link,
+    .enroll-course {
+      .btn-buy-course,
+      .button-add-to-cart,
+      .button-enroll-course {
+        background-color: $thim_body_primary_color;
+
+        &:hover {
+          background-color: darken($thim_body_primary_color, 10%);
+        }
+      }
+
+      .btn-add-cart {
+        &:hover {
+          background-color: $thim_body_primary_color;
+          border-color: $thim_body_primary_color;
+        }
+      }
+    }
+    .social-link {
+      a {
+        &:hover {
+          background-color: $thim_body_primary_color !important;
+        }
+      }
+    }
+    .tags {
+      h3 {
+        &:before {
+          color: $thim_body_primary_color;
+        }
+      }
+      .list-tags {
+        a {
+          &:hover {
+            background: $thim_body_primary_color;
+            border-color: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+    .learn-press-pmpro-buy-membership {
+      &#learn-press-pmpro-notice {
+        .purchase-button {
+          &:hover {
+            background: $thim_body_primary_color;
+            border-color: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+    .inner-content {
+      .button-box {
+        .wishlist-button {
+          color: $thim_body_primary_color;
+          &:hover {
+            color: darken($thim_body_primary_color, 10%);;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* Landing course tab navigation */
+
+#thim-landing-course-menu-tab {
+  .course-purchase-info {
+    .course-price {
+      color: $thim_body_primary_color;
+
+      &.free {
+        color: $thim_body_primary_color;
+      }
+    }
+  }
+}
+// related product
+.related-archive {
+  .slide-course {
+    .wrap-arrow-slick {
+      .arow-slick {
+        &:hover {
+          background: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+
+  .course-item {
+    .content {
+      .name {
+        a {
+          &:hover {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+
+      .star {
+        color: $thim_body_primary_color;
+      }
+
+      .title {
+        a {
+          &:hover {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+
+    .info {
+      .price {
+        &.free {
+          color: $thim_body_primary_color;
+        }
+      }
+
+      .numbers {
+        a {
+          &:hover {
+            color: $thim_body_primary_color;
+
+            i {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.lp-learning {
+  .course-learning-summary {
+    .learn-press-tabs {
+      .nav-tabs-wrapper {
+        border-bottom: 1px solid $border-color;
+        .learn-press-nav-tabs {
+          .learn-press-nav-tab {
+            &.active {
+              &:after {
+                background-color: $thim_body_primary_color;
+              }
+            }
+
+            &:hover {
+              &:after {
+                background-color: $thim_body_primary_color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

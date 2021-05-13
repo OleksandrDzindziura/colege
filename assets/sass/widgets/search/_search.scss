@@ -1,0 +1,62 @@
+.widget-area {
+    aside.widget {
+        margin-bottom: 50px;
+        .search-form {
+            position: relative;
+            border: none;
+            margin-top: -5px;
+            label {
+                width: 100%;
+                display: inline-block;
+                font-weight: 400;
+                margin: 0;
+                .search-field {
+                    line-height: 24px;
+                    background: #fff;
+                    padding: 0 60px 0 -12px;
+                    font-size: 14px;
+                    width: 100%;
+                    border-bottom: 1px solid #eee;
+                    transition: all .3s ease-in-out;
+                    padding-bottom: 8px;
+                    background-clip: padding-box;
+                    border:none;
+                    border-bottom: 1px solid #eee;
+                    font-family: inherit;
+                    font-style: italic;
+                    background: transparent;
+                    &:focus{
+                       border-color: #f8b944;
+                    }
+                }
+            }
+            .search-submit {
+                width: 40px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                border: none;
+                z-index: 2;
+                background: 0 0!important;
+                border-radius: 0;
+                line-height: 42px;
+                height: 42px;
+                color: #888;
+                font-size: 0;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            &:after {
+              content: "\f002";
+              font: normal normal normal 14px/1 FontAwesome;
+              position: absolute;
+              right: 0;
+              top: 0;
+              width: 40px;
+              height: 42px;
+              text-align: center;
+              line-height: 42px;
+            }
+        }
+    }
+}

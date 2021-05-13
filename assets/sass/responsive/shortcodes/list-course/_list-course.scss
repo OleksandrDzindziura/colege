@@ -1,0 +1,24 @@
+body {
+    &.responsive {
+        @media (max-width: 600px) {
+            div.bp-element-list-courses {
+                &.layout-slider-2 {
+                    .slide-course {
+                        .wrap-arrow-slick {
+                            display: none;
+                        }
+                        .item-slick {
+                            .course-item {
+                                .course-text {
+                                    padding-left: 0;
+                                    padding-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

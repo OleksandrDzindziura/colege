@@ -1,0 +1,19 @@
+div.bp-element-pricing-table {
+    &.layout-3 {
+        .wrap-element {
+            .pricing-item {
+                .symbol {
+                    img {
+                        padding: 0;
+                    }
+                }
+                .back-ground {
+                    opacity: 0.2;
+                }
+                .description {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}

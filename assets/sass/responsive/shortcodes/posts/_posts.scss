@@ -1,0 +1,35 @@
+body {
+  &.responsive {
+    @media (max-width: 1400px) and (min-width: 1025px) {
+      .bp-element-posts {
+        &.layout-list-1 {
+          .list-posts {
+            .item {
+              padding-bottom: 20px;
+              + .item {
+                padding-top: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 1024px) {
+      .bp-element-posts {
+        &.layout-list-1 {
+          .list-posts {
+            .item {
+              padding-bottom: 20px;
+              + .item {
+                padding-top: 15px;
+              }
+              &:last-child {
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

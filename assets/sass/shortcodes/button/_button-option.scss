@@ -1,0 +1,17 @@
+div.bp-element-button {
+  .btn-primary {
+    background-color: $thim_body_primary_color;
+    &:hover {
+      background-color: darken($thim_body_primary_color, 10%);
+    }
+  }
+  .style-gradient {
+    &:before {
+      background: $thim_body_primary_color;
+      background: -webkit-linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color, $thim_body_primary_color, $thim_body_primary2_color);
+      background: -o-linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color, $thim_body_primary_color, $thim_body_primary2_color);
+      background: -moz-linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color, $thim_body_primary_color, $thim_body_primary2_color);
+      background: linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color, $thim_body_primary_color, $thim_body_primary2_color);
+    }
+  }
+}

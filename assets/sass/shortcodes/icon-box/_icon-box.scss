@@ -1,0 +1,139 @@
+/*\
+ *
+ * Icon-box layout-3
+ *
+\*/
+.bp-element-icon-box.layout-3 {
+    .icon-box {
+        .icon-image {
+            width: 96px;
+            height: 96px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            overflow: hidden;
+            background: #fff;
+            transition: all 0.2s;
+            img {
+               max-width: 100%;
+            }
+        }
+        .content {
+            max-width: 300px;
+
+            .title {
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 1.333333;
+              color: #fff;
+              text-transform: uppercase;
+              margin-bottom: 15px;
+            }
+
+            .description {
+              font-weight: 300;
+              font-size: 16px;
+              line-height: 1.5;
+              color: #fff;
+            }
+        }
+    }
+
+    &:hover {
+        .icon-box {
+            .icon-image {
+              background: rgba(255, 255, 255, .8);
+            }
+        }
+    }
+
+
+    &.icon-top {
+        padding-bottom: 35px;
+
+        .icon-box {
+            display: flex;
+            flex-direction: column;
+
+            .icon-image {
+                margin-top: -84px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    &.icon-bottom {
+        padding-top: 39px;
+
+        .icon-box {
+            display: flex;
+            flex-direction: column-reverse;
+
+            .icon-image {
+              margin-bottom: -48px;
+              margin-top: 30px;
+            }
+        }
+    }
+
+
+    &.align-center {
+        &.icon-top,
+        &.icon-bottom {
+            .icon-box {
+                align-items: center;
+            }
+        }
+
+        .icon-box {
+            .content {
+                 .title {
+                    text-align: center;
+                 }
+
+                 .description {
+                    text-align: center;
+                 }
+             }
+        }
+    }
+}
+div.bp-element-icon-box {
+    .icon-box {
+        .content {
+            .description {
+                .old-price {
+                    font-size: 14px;
+                    text-decoration: line-through;
+                    margin: 0 5px;
+                }
+                .new-price {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    &.layout-5 {
+        .icon-box {
+            .content {
+                width: calc(100% - 60px - 4px);
+            }
+        }
+    }
+    &.layout-6 {
+        .icon-box {
+            padding: 53px 40px 31px 40px;
+            .button {
+                .link {
+                    font-family: roboto;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    letter-spacing: 0.5px;
+                }
+            }
+        }
+    }
+}
+

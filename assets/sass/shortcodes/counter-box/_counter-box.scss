@@ -1,0 +1,62 @@
+div.all-teachers-page {
+  .bp-element-counter-box.layout-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      padding-top: 23px;
+      padding-bottom: 23px;
+
+      &::after {
+          content: '';
+          position: absolute;
+          display: block;
+          width: 60px;
+          height: 1px;
+          background: rgba(124, 124, 124, .2);
+          bottom: 0;
+          left: calc(50% - 30px);
+      }
+
+      &:last-child {
+          &:after {
+              display: none;
+          }
+      }
+
+      &:first-child {
+        padding-top: 0;
+      }
+
+      .number_counter {
+          font-weight: 700;
+          font-size: 60px;
+          line-height: 1;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 5px;
+      }
+
+      .title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.444444;
+        color: #292929;
+        text-align: center;
+        margin-bottom: 0;
+      }
+  }
+}
+
+/* counter-box */
+.bp-element-counter-box {
+    .counter-boxes {
+        .counter-box {
+            font-weight: 300;
+            line-height: 1.5;
+            font-size: 16px;
+            text-align: center;
+            max-width: 250px;
+        }
+    }
+}

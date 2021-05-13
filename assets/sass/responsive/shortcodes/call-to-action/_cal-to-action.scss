@@ -1,0 +1,88 @@
+body {
+    &.responsive {
+        @media (max-width: 800px) {
+            div.bp-element-call-to-action {
+                &.layout-5 {
+                    .inner-action {
+                        .content-text {
+                            flex-direction: column;
+                            .title {
+                                padding-right: 0;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 600px) {
+            div.bp-element-call-to-action {
+                &.layout-4 {
+                    .description {
+                        font-size: 18px !important;
+                    }
+                    .call-action-button {
+                        display: flex;
+                        flex-direction: column-reverse;
+                        width: max-content;
+                        margin: auto;
+                        .readmore {
+                            height: 50px;
+                            overflow: hidden;
+                            line-height: initial;
+                            margin-top: 25px !important;
+                            margin-left: 0 !important;
+                            margin-right: 0 !important;
+                        }
+                        .call-open {
+                            height: 50px;
+                            overflow: hidden;
+                            line-height: initial;
+                            padding: 4px 30px 2px 5px !important;
+                            width: inherit;
+                        }
+                    }
+                }
+
+                &.layout-5 {
+                    .inner-action {
+                        .content-text {
+                            flex-direction: column;
+                            .title {
+                                padding-right: 0;
+                                text-align: center;
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+
+                &.layout-6 {
+                    padding:0;
+                    .wrap-element {
+                        justify-content: center;
+                        padding:20px 25px;
+                        .content {
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 480px) {
+            div.bp-element-call-to-action {
+                &.layout-5 {
+                    .inner-action {
+                        .content-text {
+                            .call-action-button {
+                                a {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

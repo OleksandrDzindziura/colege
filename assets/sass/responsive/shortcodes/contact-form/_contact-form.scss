@@ -1,0 +1,21 @@
+body {
+    &.responsive {
+        @media (max-width: 767px) {
+            div.thim-form-course {
+                .pr_3,
+                .pl_5{
+                    padding-left:15px;
+                    padding-right: 15px;
+                }
+                .mobile-mb-25 {
+                    margin-bottom: 25px;
+                }
+            }
+            div.book-lesson-form {
+                .wrap-input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

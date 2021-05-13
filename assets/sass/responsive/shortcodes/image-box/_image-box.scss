@@ -1,0 +1,23 @@
+body {
+    &.responsive {
+        @media (min-width: 600px) and (max-width: 767px) {
+            .thim-style-image-box {
+                display: flex;
+            }
+        }
+        @media (max-width: 480px) {
+            div.bp-element-image-box.layout-default{
+                .pic {
+                    .wrap-img {
+                        margin: 0 auto;
+                    }
+                }
+                .text {
+                    .wrap-content {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

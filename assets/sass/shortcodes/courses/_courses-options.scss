@@ -1,0 +1,108 @@
+
+/*\
+ *
+ * course layout-slider
+ *
+\*/
+.bp-element.bp-element-list-courses.layout-slider  {
+	.slide-course {
+	  	.wrap-arrow-slick {
+			.arow-slick {
+				&:hover {
+					background: $thim_body_primary_color;
+				}
+			}
+	  	}
+	}
+
+	.course-item {
+		.content {
+			.title, .name {
+				a {
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}	
+			}
+		}
+		.info {
+			.price {
+				&.free {
+					color: $thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.bp-element.bp-element-list-courses.layout-list  {
+	.list-courses {
+		.item {
+			.content {
+				.title {
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+
+				}
+				.list-meta {
+					.post-date {
+						color: $thim_body_primary_color;
+					}
+				}
+				.course-price {
+					.value {
+						color: $thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.bp-element.bp-element-list-courses.layout-list-2 {
+	.course-item {
+		.term {
+			background-color: $thim_body_primary_color;
+		}
+		.text {
+			.title {
+				a {
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+}
+.bp-element.bp-element-list-courses.layout-grid {
+	.item-course {
+		.text {
+			.teacher {
+
+				a {
+					&:hover {
+						color: $thim_body_primary2_color;
+					}
+				}
+			}
+
+			.title-course {
+				a {
+					&:hover {
+						color: $thim_body_primary2_color;
+					}
+				}
+			}
+
+			.info-course {
+				a {
+					&:hover {
+						color: $thim_body_primary2_color;
+					}
+				}
+			}
+		}
+	}
+}

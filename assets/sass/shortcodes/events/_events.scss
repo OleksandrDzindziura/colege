@@ -1,0 +1,23 @@
+.bp-element.bp-element-list-events {
+  &.layout-1 {
+    .content {
+      .title {
+        a {
+          @include numberrow(2);
+        }
+      }
+    }
+  }
+}
+
+// single event
+.bl-detail-event {
+    .info {
+        .contact {
+            .event-load-booking-form.isDisabled {
+                cursor: not-allowed;
+                text-decoration: none;
+            }
+        }
+    }
+}

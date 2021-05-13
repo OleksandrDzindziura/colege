@@ -1,0 +1,57 @@
+.bp-element.bp-element-image-box {
+  &.layout-gradient {
+    &.color-1 {
+      .image-box {
+        &::before {
+          background: $thim_body_primary_color;
+          background: -webkit-linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+          background: -o-linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+          background: -moz-linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+          background: linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+        }
+      }
+    }
+
+    &.color-2 {
+      .image-box {
+        &::before {
+          background: $thim_body_primary2_color;
+          background: -webkit-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+          background: -o-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+          background: -moz-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+          background: linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+        }
+      }
+    }
+  }
+  &.layout-default {
+    .pic {
+      .wrap-img {
+        .main-img {
+
+          &::before {
+            background: #4d58b1;
+            background: -webkit-linear-gradient(bottom, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+            background: -o-linear-gradient(bottom, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+            background: -moz-linear-gradient(bottom, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+            background: linear-gradient(bottom, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+          }
+          .link {
+            &:hover {
+              color: #f7c370;
+            }
+          }
+        }
+
+        .background {
+          .color-bg {
+            background: -webkit-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+            background: -o-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+            background: -moz-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+            background: linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+          }
+        }
+      }
+    }
+  }
+}

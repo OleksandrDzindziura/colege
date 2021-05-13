@@ -1,0 +1,16 @@
+div.bp-element-list-events {
+    &.layout-slider {
+        .item-slick:last-child {
+            padding-bottom: 0 !important;
+        }
+    }
+    &.layout-list-2 {
+        .wrap-element {
+            .event-list {
+                .event-item:last-child {
+                    border-bottom: 1px solid transparent;
+                }
+            }
+        }
+    }
+}

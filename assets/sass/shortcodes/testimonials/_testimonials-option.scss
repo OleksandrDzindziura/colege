@@ -1,0 +1,142 @@
+div.bp-element.bp-element-testimonials {
+  &.layout-slider-2 {
+    .slide-testimonial {
+      .slide-content {
+        .item-slick {
+          .testimonial-content {
+            div {
+              span {
+                color: $thim_body_primary_color !important;
+              }
+            }
+          }
+        }
+      }
+      .slide-thumb::before {
+        background: $thim_body_primary_color;
+      }
+    }
+  }
+  &.layout-slider-3 {
+    .item {
+      .info-wrap {
+        .info {
+          .title {
+            a {
+              color: $thim_body_primary_color;
+              &:before {
+                color: $thim_body_primary_color;
+              }
+              &:hover {
+                color: $thim_body_primary_color;
+              }
+            }
+          }
+        }
+      }
+    }
+    .wrap-dot-slick {
+      .dots-slick {
+        li {
+          &.slick-active span {
+            background: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+  }
+  &.layout-slider-4 {
+    .slide-testimonial {
+      .wrap-dot-slick {
+        .dots-slick {
+          li {
+            span {
+              &:hover {
+                background: $thim_body_primary2_color;
+              }
+            }
+
+            &.slick-active {
+              span {
+                background: $thim_body_primary2_color;
+              }
+            }
+          }
+        }
+      }
+
+      .testimonial-item {
+        .author {
+          .info {
+            .name {
+              &:hover {
+                color: $thim_body_primary2_color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.layout-slider-5 {
+    .slide-testimonial {
+      .wrap-dot-slick {
+        .dots-slick {
+          li {
+            span {
+              &:hover {
+                background: $thim_body_primary2_color;
+              }
+            }
+
+            &.slick-active {
+              span {
+                background: $thim_body_primary2_color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .testimonial-item {
+      .pic {
+        .color-bg {
+          background: $thim_body_primary_color;
+          background: -webkit-linear-gradient(top, $thim_body_primary2_color, $thim_body_primary_color);
+          background: -o-linear-gradient(top, $thim_body_primary2_color, $thim_body_primary_color);
+          background: -moz-linear-gradient(top, $thim_body_primary2_color, $thim_body_primary_color);
+          background: linear-gradient(top, $thim_body_primary2_color, $thim_body_primary_color);
+        }
+      }
+
+      .text {
+        .author {
+          .name {
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.layout-slider-10 {
+      .slide-testimonial {
+          .slide-thumb:before {
+              background: $thim_body_primary_color;
+          }
+          .slide-content {
+              .item-slick {
+                  .testimonial-content {
+                      .author {
+                          .name {
+                              color:$thim_body_primary_color;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+}

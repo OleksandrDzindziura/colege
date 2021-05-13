@@ -1,0 +1,89 @@
+.lp-profile {
+  .thim-about-me-area {
+    .teacher {
+      .content {
+        .social-link {
+          .item {
+            &:hover {
+              background: $thim_body_primary_color;
+              border-color: $thim_body_primary_color;
+            }
+          }
+        }
+        .info {
+          .name {
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+    }
+
+    .contact-info {
+      li {
+        a {
+          &:hover {
+            color: $thim_body_primary_color;
+          }
+        }
+
+        span {
+          i {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+  }
+  .submit.update-profile {
+    button[type=submit] {
+      background-color: $thim_body_primary_color;
+    }
+  }
+  .promoted-checkbox {
+    input:checked + label > svg {
+      stroke: $thim_body_primary_color;
+    }
+    label {
+      &:after {
+        border: 2px solid $thim_body_primary_color;
+      }
+    }
+  }
+  #learn-press-profile-nav {
+    ul.tabs {
+      >li.active {
+        >a:after {
+          background-color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+  #learn-press-profile-content {
+    #profile-content-courses {
+      .learn-press-subtab-content {
+        .lp-sub-menu {
+          li {
+            span {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.lp-tab-sections {
+  .section-tab {
+    &.active {
+      span {
+        border-bottom-color: $thim_body_primary_color;
+      }
+    }
+  }
+}
+.lp-list-table thead tr th {
+  background-color: $thim_body_primary_color!important;
+}
+

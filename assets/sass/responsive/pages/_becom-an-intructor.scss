@@ -1,0 +1,51 @@
+body {
+    &.responsive {
+        @media (max-width: 900px) {
+            .thim_intructor {
+                .thim_padding>.vc_column-inner {
+                    padding: 35px !important;
+                }
+            }
+            .thim-want-to-learn-more {
+                .title-area {
+                    flex-direction: column-reverse;
+                    align-items: center;
+                    >.wpb_column {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            div.thim-want-to-learn-more {
+                .bp-element-heading {
+                    .title {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+        @media (max-width: 600px) {
+            .thim_intructor {
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                >.wpb_column {
+                    width: 100%;
+                }
+            }
+            // responsive form register
+            .become-teacher-form {
+                form {
+                    .become-teacher-fields {
+
+                        .form-field {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

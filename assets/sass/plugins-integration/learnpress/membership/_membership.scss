@@ -1,0 +1,600 @@
+/* Table
+-------------------------------------------------------------------*/
+
+#shaon-pricing-table-plus ul,
+#shaon-pricing-table-plus h3,
+#shaon-pricing-table-plus h4,
+#shaon-pricing-table-plus li {
+	list-style: none;
+}
+
+.minimal {
+	margin: 9px auto;
+}
+
+.minimal .plan {
+	width: 25%;
+	float: left;
+	margin-left: -1px;
+	margin-bottom: 20px;
+}
+
+.minimal .plan:first-child {
+	margin-left: 0
+}
+
+.minimal .plan h3 {
+	text-align: center;
+	line-height: 45px;
+	margin: 0;
+}
+
+.minimal .plan li {
+	line-height: 3.8em;
+}
+
+.select,
+.plan li {
+	text-align: center
+}
+
+.minimal .select {
+	border: 1px solid #ddd;
+}
+
+.minimal .highlight.featured .select {
+	padding-bottom: 20px;
+}
+
+.minimal .features ul {
+	border: 1px solid #ddd;
+}
+
+.minimal .features ul li {
+	border-bottom: 1px solid #ddd;
+}
+
+.minimal .features ul li:last-child {
+	border-bottom: none;
+}
+
+/* specialized
+-------------------------------------------------------------------*/
+
+.interval {
+	font-size: 11px;
+}
+
+.highlight .amount,
+.interval {
+	display: block;
+	text-align: center
+}
+
+.highlight .amount {
+	font-size: 40px;
+}
+
+.highlight .amount span {
+	vertical-align: super;
+	font-size: 20px
+}
+
+/* Top
+-------------------------------------------------------------------*/
+.minimal .p1 h3 {
+	border: 1px solid #ddd;
+	margin: 0;
+}
+
+.minimal .plan h4 {
+	padding: 10px 0;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	margin: 0;
+	font-weight: 600 !important;
+}
+
+.minimal .pt-button {
+	color: #FFFFFF;
+	display: block;
+	line-height: 40px;
+	margin: 20px auto;
+	width: 131px;
+	background: #181818;
+	text-transform: uppercase;
+}
+
+/* Highlight
+-------------------------------------------------------------------*/
+.minimal .highlight h3 {
+	padding: 10px 0;
+}
+
+.minimal .highlight.featured h3 {
+	margin-top: -20px;
+	padding: 20px 0;
+	color: #fff !important;
+}
+
+.minimal .highlight {
+	position: relative;
+}
+
+#shaon-pricing-table-plus {
+	.minimal {
+		.features {
+			ul {
+				margin: 0;
+			}
+		}
+	}
+}
+//Pricing Table
+#shaon-pricing-table-plus {
+	.minimal {
+		.highlight {
+			border: 1px solid $border-color;
+			width: 20%;
+			background: #fdfdfd;
+			@include transition(all 0.5s);
+			&:hover {
+				background: #fff;
+				@include box-shadow(12.9px 15.3px 18px 0 rgba(0, 0, 0, 0.08));
+				.detail:after {
+					background-color: #FFF;
+				}
+			}
+			.detail {
+				position: relative;
+				&:after {
+					content: '';
+					width: 161px;
+					height: 20px;
+					background: #fdfdfd;
+					display: block;
+					left: 0;
+					right: 0;
+					margin: auto;
+					bottom: -20px;
+					position: absolute;
+					z-index: 9999;
+					@include rounded(0 0 30px 30px);
+					border: 1px solid $border-color;
+					border-top: 0;
+				}
+			}
+			&.list-interval {
+				background: #fff;
+				width: 40%;
+				.detail {
+					@include opacity(0);
+					padding-bottom: 16px;
+				}
+				.features {
+					padding-top: 10px;
+					border-top: 0;
+					ul {
+						li {
+							text-align: left;
+							a {
+								color: #888888;
+							}
+						}
+					}
+				}
+				.select {
+					@include opacity(0);
+				}
+				&:hover {
+					@include box-shadow(none);
+				}
+			}
+			&.featured {
+				background: #fff;
+				width: 19%;
+				position: relative;
+				z-index: 2;
+				@include box-shadow(12.9px 15.3px 18px 0 rgba(0, 0, 0, 0.08));
+				.detail {
+					padding: 55px 20px 28px;
+					margin-top: -10px;
+					position: relative;
+					&:before {
+						content: '';
+						position: absolute;
+						right: -7px;
+						top: -6px;
+						width: 109px;
+						height: 109px;
+						background: url("assets/images/popular.png") no-repeat;
+					}
+					h3 {
+						background: none;
+						margin: 0;
+					}
+					.title {
+						color: #fff;
+					}
+					.interval {
+						color: $border-color;
+						font-size: 15px;
+					}
+					h4 {
+						color: #fff;
+						margin-bottom: 25px;
+					}
+					.amount {
+						font-size: 46px;
+					}
+					.select {
+						padding: 32px 0 42px;
+						position: relative;
+						margin-bottom: -10px;
+					}
+				}
+				.features {
+					padding-top: 17px;
+					border-top: 0;
+					padding-bottom: 10px;
+					position: relative;
+				}
+				.select {
+					padding-bottom: 41px;
+					padding-top: 21px;
+					.pt-button {
+						color: #fff;
+						&:hover {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		.detail {
+			padding: 45px 20px 27px 20px;
+			text-align: center;
+			h3 {
+				padding: 0;
+				border: none;
+				line-height: 36px;
+			}
+			.icon {
+				width: 100%;
+				display: inline-block;
+				font-size: 40px;
+				line-height: 40px;
+			}
+			.title {
+				display: inline-block;
+				width: 100%;
+				position: relative;
+				font-size: 18px;
+				text-transform: uppercase;
+				font-weight: 500;
+				color: #2b3339;
+				line-height: 28px;
+				min-height: 28px;
+			}
+			.interval {
+				color: #2b3339;
+				font-size: 14px;
+				font-weight: 300;
+				position: relative;
+				line-height: 22px;
+				margin-top: 5px;
+			}
+			h4 {
+				font-weight: 600 !important;
+				padding: 0;
+				line-height: 30px;
+				margin-top: 15px;
+				border: none;
+				margin-bottom: 5px;
+			}
+			.amount {
+				font-size: 40px;
+			}
+		}
+		.features {
+			padding-top: 38px;
+			border-top: 1px solid $border-color;
+			ul {
+				border: none;
+				padding: 0 30px !important;
+				li {
+					line-height: 46px;
+					border-bottom: 1px solid $border-color;
+					border-top: 0;
+					font-size: 16px;
+					.item-mobile {
+						display: none;
+					}
+					.fa {
+						font-weight: bold;
+					}
+					.fa-check {
+						color: #49c993;
+					}
+				}
+			}
+		}
+		.select {
+			border: none;
+			padding: 31px 0;
+			.pt-button {
+				margin: 0 auto;
+				@include rounded(30px);
+				height: 40px;
+				line-height: 40px;
+				font-size: 14px;
+				text-transform: uppercase;
+				font-weight: normal;
+				padding: 0 30px;
+				width: auto;
+				display: inline-block;
+				@include transition(all 0.5s);
+				background: none;
+				&:hover {
+					color: #fff;
+				}
+				&:after {
+					content: '';
+					font-family: Ionicons;
+					margin-left: 8px;
+					font-size: 16px;
+					line-height: 22px;
+					position: relative;
+					top: 1px;
+				}
+			}
+		}
+	}
+}
+
+.pmpro-checkout {
+  .pmpro_message {
+	  margin-top: 0;
+	  margin-bottom: 30px;
+	  border-radius: 0;
+  }
+	table {
+		thead {
+			background: #f5f5f5;
+		}
+		td,
+		th {
+			padding: 15px 20px;
+		}
+	}
+	form.pmpro_form .pmpro_submit {
+		margin-left: 0;
+		margin: 0;
+	}
+
+	form.pmpro_form {
+		label {
+			font-weight: 400;
+			margin: 0;
+			padding: 0 20px;
+			line-height: normal;
+		}
+		.select2-container,
+		input,
+		textarea,
+		select {
+			border: 1px solid $border-color;
+			width: 100%;
+			margin: 0;
+			max-width: 100%;
+			margin-bottom: 20px;
+			padding: 0 20px;
+			height: 50px;
+			line-height: 50px;
+		}
+		.pmpro_btn-submit-checkout {
+			width: 100%;
+			@include rounded(5px);
+			height: 50px;
+			line-height: 50px;
+			padding: 0 20px;
+			text-align: center;
+			font-size: 18px;
+			letter-spacing: 0.4px;
+			font-weight: 400;
+			text-transform: capitalize;
+			border-color: transparent;
+		}
+		.pmpro_payment-expiration {
+			.select2-container {
+				max-width: 100px;
+			}
+			.expiration-icon {
+				line-height: 50px;
+				margin: 0 10px;
+				display: inline-block;
+				vertical-align: top;
+			}
+		}
+		.pmpro_payment-cvv {
+			max-width: 245px;
+			small {
+				margin-left: 10px;
+			}
+		}
+
+	}
+
+	span.pmpro_asterisk {
+		padding: 0 10px;
+		line-height: 50px;
+		color: red;
+	}
+
+	form.pmpro_form {
+		label {
+			padding-left: 0;
+			padding-right: 0;
+			margin-bottom: 10px;
+		}
+		.select2-container, .select2-container--default {
+			.select2-selection--single {
+				border: none;
+				.select2-selection__rendered {
+					padding-left: 0;
+					line-height: 48px;
+				}
+			}
+		}
+		.pmpro_btn-submit-checkout {
+			border-radius: 0;
+			color: #ffffff;
+			border: none;
+			@include transition();
+		}
+	}
+}
+
+@media (max-width: 1400px) {
+	#shaon-pricing-table-plus .minimal .select .pt-button {
+		padding: 0 20px;
+	}
+}
+@media (max-width: 1024px) {
+	#shaon-pricing-table-plus {
+		.minimal {
+			.select {
+				.pt-button {
+					padding: 0 20px;
+				}
+			}
+			.detail {
+				h4 {
+					font-weight: 500 !important;
+				}
+				.amount {
+					font-size: 23px;
+				}
+				.title {
+					font-size: 14px;
+					line-height: normal;
+				}
+				.interval {
+					font-size: 13px;
+					line-height: normal;
+					margin-top: 0;
+				}
+			}
+
+			.features {
+				ul {
+					li {
+						line-height: normal;
+						font-size: 14px;
+						padding: 10px 0;
+					}
+				}
+			}
+			.highlight {
+				width: 20%;
+				.detail {
+					&:after {
+						display: none;
+					}
+				}
+				&.list-interval {
+					width: 40%;
+				}
+				&.featured {
+					.detail {
+						.amount {
+							font-size: 28px;
+						}
+					}
+				}
+			}
+
+		}
+	}
+	.thim-sc-text-box.style-3 {
+		padding: 30px;
+		.title-1 {
+			font-size: 20px;
+		}
+		.title-2 {
+			font-size: 15px;
+		}
+	}
+}
+@media (max-width: 768px) {
+	#shaon-pricing-table-plus {
+		.minimal {
+			.highlight {
+				width: 33.33%;
+				&.list-interval {
+					display: none;
+				}
+				&.featured {
+					width: 33.33%;
+				}
+			}
+			.features ul li {
+				.item-mobile {
+					display: inline-block;
+				}
+				i {
+					display: none;
+				}
+				&.hidden-mobile {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.vc_row.vc_column-gap-35 > .vc_column_container {
+		padding: 15px 0;
+	}
+
+	.thim-sc-text-box.style-3 {
+		padding: 30px 20px;
+		.title-1 {
+			font-size: 23px;
+			line-height: normal;
+		}
+		.title-2 {
+			font-size: 14px;
+		}
+	}
+}
+@media (max-width: 480px) {
+	#shaon-pricing-table-plus {
+		.minimal {
+			.detail {
+				padding: 20px 0;
+				h4 {
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+			}
+			.features {
+				ul {
+					padding: 0 20px !important;
+				}
+			}
+			.highlight {
+				width: 100%;
+				margin-bottom: 40px;
+				&.featured {
+					width: 100%;
+					.detail {
+						padding: 20px 0 !important;
+						h4 {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

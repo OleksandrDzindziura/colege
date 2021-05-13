@@ -1,0 +1,24 @@
+/*
+ * Style Options
+ * Import style option all shortcodes, widgets
+ * Style all selector variable form customizer
+ */
+@import "variables";
+@import "area-style/area-style-options";
+@import "features/preloading/style-options";
+@import "features/back-to-top/back-to-top-options";
+@import "header/header-options";
+@import "breadcrumb/breadcrumb-options";
+@import "blog/blog-options";
+@import "sidebar/sidebar-options";
+@import "footer/footer-options";
+@import "typography/typography-options";
+@import "background/background-options";
+@import "buttons/buttons-options";
+@import "general-style/general-style-options";
+@import "shortcodes/shortcodes-option";
+@import "plugins-integration/plugins-integration-option";
+@import "pages/page-option";
+@import "responsive/responsive-options";
+@import "widgets/posts-option";
+@import "blocks/blocks-option";

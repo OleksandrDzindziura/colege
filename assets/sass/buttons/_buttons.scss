@@ -1,0 +1,50 @@
+
+.btn-small,
+.btn-normal,
+.btn-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  border: none;
+  cursor: pointer;
+}
+/*
+ *
+ * Size
+ *
+\*/
+.btn-small {
+  height: 40px;
+  padding: 0 30px;
+}
+
+.btn-normal {
+  height: 50px;
+  padding: 0 35px;
+}
+
+.btn-large {
+
+}
+
+
+/*\
+ *
+ * Shape
+ *
+\*/
+.shape-square {
+  border-radius: none;
+}
+
+.shape-round {
+  &.btn-small {
+    border-radius: 20px;
+  }
+
+  &.btn-normal {
+    border-radius: 25px;
+  }
+}
+

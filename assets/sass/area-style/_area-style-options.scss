@@ -1,0 +1,142 @@
+
+.thim-course-collection {
+
+  .thim-button {
+    a {
+      background: $thim_body_primary_color;
+
+      &:hover {
+        background: darken($thim_body_primary_color, 10%) !important;
+      }
+    }
+
+  }
+}
+
+/*\
+ *
+ * Video-Openday-Whychoose
+ *
+\*/
+.thim-video-open-why {
+
+  .btn-learn-more {
+    background: $thim_body_primary_color;
+
+    &:hover {
+      background: darken($thim_body_primary_color, 10%);
+    }
+  }
+
+}
+
+
+/*\
+ *
+ * Last news
+ *
+\*/
+.thim-last-news {
+
+
+  .head-area {
+    .link {
+      color: $thim_body_primary_color;
+      border-bottom: 1px solid $thim_body_primary_color;
+
+      &:hover {
+        color: lighten($thim_body_primary_color, 10%);
+        border-color: lighten($thim_body_primary_color, 10%);
+      }
+    }
+  }
+
+}
+
+/*\
+ *
+ * block text about program
+ *
+\*/
+.bl-text-about-program {
+
+  ul {
+    li {
+
+      &::before {
+        color: $thim_body_primary_color;
+      }
+    }
+  }
+}
+/*\
+ *
+ * block start apply
+ *
+\*/
+.bl-start-apply {
+  .bp-element-heading.thim-style-demo {
+    .title {
+      &::before {
+        background-color: $thim_body_primary_color;
+      }
+    }
+  }
+}
+
+/*\
+ *
+ * block other projects
+ *
+\*/
+.bl-others-project {
+  .bp-element-heading.thim-style-demo {
+    .title {
+      &::before {
+        background-color: $thim_body_primary_color;
+      }
+    }
+  }
+
+  .list-projects {
+    li {
+
+      .title {
+        &:hover {
+          color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+}
+
+/*\
+ *
+ * block breadcrumb
+ *
+\*/
+.bl-breadcrumb {
+  a {
+    color: $thim_body_primary_color;
+    &:hover {
+      color: darken($thim_body_primary_color,10%);;
+    }
+  }
+}
+
+
+.bl-contact-form {
+
+  input[type="submit"] {
+    background: $thim_body_primary_color;
+
+    &:hover {
+      background: darken($thim_body_primary_color,10%);
+    }
+  }
+}
+a.thim_link {
+  &:hover {
+    color: $thim_body_primary_color;
+  }
+}

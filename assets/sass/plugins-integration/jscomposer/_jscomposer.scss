@@ -1,0 +1,25 @@
+.vc_row {
+  position: relative;
+  .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+  }
+  > .wpb_column {
+    position: relative;
+  }
+  &.bg_pos_bottom_center {
+    background-position: center bottom!important;
+  }
+  &.bg_pos_top_center {
+    background-position: center top!important;
+  }
+}
+.thim-style-counter-box {
+  max-width: 934px;
+  margin-left: auto;
+  margin-right: auto;
+}

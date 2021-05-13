@@ -1,0 +1,35 @@
+
+
+/* Ivy School WordPress Theme 1.1 - 2019/01/29 */
+- Included new Driving demo.
+- Fixed some minor bugs (Responsive, WooCommerce).
+
+/* Ivy School WordPress Theme 1.0.6 - 2019/01/24 */
+- Add option login/logout/register redirect.
+- Improved some problems in customize.
+- Fixed some minor bugs (feature image, become an instructor, event).
+
+/* Ivy School WordPress Theme 1.0.5 - 2018/12/24 */
+- Included new Art demo.
+- Fixed some minor bugs (Learnpress, WooCommerce, Shortcode).
+
+/* Ivy School WordPress Theme 1.0.4 - 2018/12/07 */
+- Add import demo data for Elementor & SiteOrigin.
+- Update language file.
+- Update child theme.
+- Fixed issue change password and avatar in profile.
+- Fixed some minor bugs (Event, WooCommerce, Shortcode).
+
+/* Ivy School WordPress Theme 1.0.3 - 2018/11/22 */
+- Fixed Outdated Woocomerce.
+- Improved menu account.
+- Fixed some minor bugs (Responsive, Forums, Lesson, Quiz ...).
+
+/* Ivy School WordPress Theme 1.0.2 - 2018/11/19 */
+- Included all LP addon in Dashboard.
+- Compatiable with Woocommerce.
+- Updated language package.
+- Fixed some minor bugs (Related Courses, Lesson, Certificate ...).
+
+/* Ivy School – Education, University & School - 2018-11-09 */
+- The most amazing Ivy School WordPress Theme was born :)

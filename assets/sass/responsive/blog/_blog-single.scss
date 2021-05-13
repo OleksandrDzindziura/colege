@@ -1,0 +1,179 @@
+// responsive
+body {
+    &.responsive {
+        @media (max-width: 1400px) and (min-width: 1025px) {
+            &.single-post {
+                .share-text {
+                    .icon-share {
+                        width: 80px;
+                    }
+                    .text {
+                        width: calc(100% - 80px);
+                    }
+                }
+                .related-archive {
+                    .item-slick {
+                        padding-right: 10px;
+                        padding-left: 10px;
+                    }
+                    .archived-posts {
+                        .related-slider {
+                            margin-right: -10px;
+                            margin-left: -10px;
+                        }
+                        .category-posts {
+                            .rel-post-text {
+                                margin-top: 20px;
+                                .entry-meta {
+                                    span {
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 815px) {
+            &.single-post {
+                #main-content {
+                    .content-area {
+                        main {
+                            border-right: 0;
+                        }
+                    }
+                }
+            }
+            #main-content{
+                .content-area{
+                    .site-content {
+                        .widget-area {
+                            margin-top: 100px;
+                        }
+                    }
+                    .page-content {
+                        padding-left: 0;
+                        padding-right: 0;
+                        &.border-right {
+                            border: 0;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        @media (max-width: 767px) {
+            &.single.single-post {
+                .site-content {
+                    .content-inner {
+                        .entry-title {
+                            font-size: 24px;
+                        }
+                        .entry-content {
+                            .share-text {
+                                flex-direction: column;
+                                .entry-tag-share {
+                                    width: 100%;
+                                    padding-right: 0;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    .title {
+                                        margin-right: 16px;
+                                    }
+                                    li {
+                                        margin-right: 16px;
+                                    }
+                                }
+                                .thim-about-author {
+                                    .author-wrapper{
+                                        flex-direction: column;
+                                        .author-avatar {
+                                            flex-direction: column;
+                                            width: 100%;
+                                            margin-right: 0;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            text-align: center;
+                                            margin-bottom: 20px;
+                                            .thim-author-social {
+                                                li{
+                                                    margin: 0 10px;
+                                                }
+                                            }
+                                        }
+                                        .author-bio {
+                                            width: 100%;
+                                            text-align: center;
+                                        }
+                                    }
+                                }
+                                .entry-navigation-post {
+                                    .prev-post {
+                                        width: 100%;
+                                        border-bottom: 1px solid #eee
+                                    }
+                                    .next-post {
+                                        width: 100%;
+                                    }
+                                    &:before {
+                                        display: none;
+                                    }
+                                }
+                                .entry-description {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .entry-meta {
+                        display: inline;
+                        span {
+                            display: inline-flex;
+                            margin-bottom: 5px;
+                            &:first-child {
+                                margin-bottom: 0;
+                            }
+                            a {
+                                &:after {
+                                    display: none;
+                                }
+                            }
+                            &.meta-category:after {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    article.none-has-post-thumbnail {
+                        .content-inner {
+                            .wrapper-entry-top {
+                                flex-direction: column-reverse;
+                                .entry-content {
+                                    width: 100% ;
+                                }
+                                .entry-top {
+                                    margin-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        
+        @media (max-width: 320px) {
+            div.page-title {
+                .main-top {
+                    .content h2 {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+
+    }
+}

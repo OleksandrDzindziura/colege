@@ -1,0 +1,266 @@
+body {
+    &.responsive {
+        @media (min-width: 992px) and (max-width: 1400px) {
+            div.bp-element-list-events.layout-list {
+                .wrap-list-events {
+                    padding-right: 30px;
+                }
+                .wrap-special-event {
+                    padding-left: 30px;
+                    margin-top: 0;
+                    .special-event {
+                        .info-event {
+                            padding-bottom: 25px;
+                            .title-event {
+                                display: -webkit-box;
+                                -webkit-line-clamp: 1;
+                                -webkit-box-orient: vertical;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                            }
+                            .tp_event_counter {
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 1199px) {
+          .bp-element-list-events.layout-list {
+            .wrap-list-events {
+              padding-right: 30px;
+            }
+
+            .wrap-special-event {
+              padding-left: 30px;
+            }
+          }
+
+        }
+
+        @media (max-width: 1024px) {
+            .col-1-tablet {
+                .thim_width_50 {
+                    width: 50%;
+                }
+                .thim_width_100 {
+                    width: 100%;
+                }
+            }
+
+            .bp-element-list-events.layout-1{
+                 .item {
+                     display: inline-block;
+                     position: relative;
+                     img {
+                        width: 100%;
+                     }
+                 }
+            }
+        }
+
+        @media (max-width: 991px) {
+            .bp-element-list-events.layout-list {
+                justify-content: left;
+                .wrap-list-events {
+                    width: 100%;
+                    padding-right: 0px;
+                    margin-bottom: 80px;
+                }
+
+                .wrap-special-event {
+                    width: 80%;
+                    padding-left: 0px;
+                    border-left: none;
+                    margin-top: 0;
+                }
+            }
+
+        }
+
+        @media (min-width: 815px) and (max-width: 1024px) {
+            div.bp-element-list-events.layout-list {
+                .wrap-list-events {
+                    .list-events {
+                        .item-event {
+                            padding-bottom: 25px;
+                            .info-event {
+                                .title-event a {
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 2;
+                                    -webkit-box-orient: vertical;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                }
+                            }
+                            & + .item-event {
+                                padding-top: 25px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 800px) {
+            .bp-element-list-events.layout-list {
+                .wrap-special-event {
+                    width: 100%;
+                }
+            }
+
+        }
+
+        @media (max-width: 767px) {
+            .col-1-tablet {
+                  >.vc_column_container {
+                    width: 100%;
+                  }
+            }
+            .bp-element-list-events.layout-list {
+                .wrap-list-events {
+                    width: 100%;
+                }
+
+                .wrap-special-event {
+                    width: 100%;
+                }
+            }
+
+        }
+
+        @media (min-width: 600px) and (max-width: 767px) {
+            div.bp-element-list-events {
+                &.layout-slider-3 {
+                    .slide-slick {
+                        .item-slick {
+                            padding: 60px 15px;
+                            .event-item {
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                .date {
+                                  margin-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 575px) {
+            .bp-element-list-events {
+                &.layout-list {
+                    .wrap-list-events {
+                        .list-events {
+                            .item-event {
+                                .date-event {
+                                    width: 84px;
+                                    height: 84px;
+                                    margin-right: 20px;
+                                }
+                            }
+                        }
+                    }
+
+                    .wrap-special-event {
+                        .special-event {
+                            .info-event {
+                              width: 100%;
+                              position: relative;
+                              left: 0px;
+                              bottom: 0px;
+
+                              .tp_event_counter {
+                                margin-top: -49px;
+
+                                .countdown-section {
+                                  .countdown-amount {
+                                    width: 76px;
+                                    height: 80px;
+                                  }
+                                }
+                              }
+                            }
+                            .tp_event_counter {
+                                  .countdown-row {
+                                    display: grid;
+                                    grid-template-columns: repeat(2,1fr);
+                                    grid-gap: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+                &.layout-1 {
+
+                    .content {
+                      padding: 15px 20px;
+                    }
+                }
+                &.layout-slider {
+                  .slide-events {
+                    .slide-slick {
+                      .item-event {
+                        .date-event {
+                          width: 84px;
+                          height: 84px;
+                          margin-right: 20px;
+                        }
+
+                        .info-event {
+                          width: calc(100% - 104px);
+                        }
+                      }
+                    }
+                  }
+                }
+                &.layout-slider-2 {
+                    .wrap-arrow-slick {
+                        .arow-slick{
+                            &.prev-slick {
+                                right: 20px;
+                            }
+                            &.next-slick {
+                                left: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 480px) {
+            div.bp-element-list-events {
+                &.layout-list {
+                    .list-events {
+                        .item-event {
+                            flex-direction: column;
+                            align-items: center;
+                            .date-event {
+                                margin-right: 0;
+                                margin-bottom: 25px;
+                            }
+                            .info-event {
+                                width: 100%;
+                                text-align: center;
+                                .meta-event {
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+                        }
+                    }
+                }
+                .wrap-arrow-slick {
+                    .arow-slick {
+                        display: none !important;
+                    }
+                }
+            }
+        }
+    }
+}

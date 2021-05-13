@@ -1,0 +1,94 @@
+div.bp-element-course-collections.layout-1 {
+  .item-slick {
+      padding-bottom: 30px;
+  }
+
+  .wrap-arrow-slick {
+      .arow-slick {
+           background: rgba(149, 149, 149, .8);
+           &:hover {
+                background: #f8b944;
+           }
+      }
+  }
+  .course-item {
+    padding: 8px 8px 28px 8px;
+    background: #fff;
+    box-shadow: 13px 15px 15px 0px rgba(105, 105, 105, .08);
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 3px 4px 15px 0px rgba(105, 105, 105, .08);
+    }
+
+    .image {
+      margin-bottom: 32px;
+    }
+
+    .content {
+      .title {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 4px;
+        position: relative;
+        z-index: 101;
+
+        a {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 1.444444;
+          color: #292929;
+          text-transform: uppercase;
+          text-align: center;
+          transition: all 0.2s;
+
+          &:hover {
+            color: #f8b944 !important;
+          }
+        }
+      }
+
+      .description {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #747474;
+        text-align: center;
+      }
+    }
+  }
+}
+div.bp-element-course-collections {
+    &.thim_collections_margin {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .slide-course {
+        .item-slick {
+            &:hover {
+                cursor: pointer;
+            }
+            .course-item {
+                .image {
+                    overflow: hidden;
+                    img {
+                        @include  transition(all .5s);
+                        &:hover {
+                            @include transform(scale(1.1,1.1));
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+div.bp-element-posts.layout-slider {
+    .post-item{
+        cursor: pointer;
+        @include transition(all 0.3s);
+        &:hover {
+            box-shadow: 3px 4px 15px 0px rgba(105, 105, 105, 0.08);
+        }
+    }
+}

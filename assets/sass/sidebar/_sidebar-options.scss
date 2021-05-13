@@ -1,0 +1,47 @@
+/*
+ * Style sidebar blog
+ */
+
+.widget-area {
+  aside.widget {
+    .widget-title,
+    .bp-element > .title {
+      &:before {
+        color: $thim_body_primary_color;
+      }
+    }
+    .search-form {
+      label {
+        .search-field {
+          &:focus{
+            border-color: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+    &.widget_categories,
+    &.widget_archive,
+    &.widget_nav_menu,
+    .bp-element-event-categories {
+      ul {
+        li {
+          a {
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+    }
+    &.widget_tag_cloud {
+      .tagcloud {
+        a {
+          &:hover {
+            background: $thim_body_primary_color;
+            border-color: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+  }
+}

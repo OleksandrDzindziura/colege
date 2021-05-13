@@ -1,0 +1,42 @@
+.mobile-menu-container {
+    .menu-mobile-logo {
+        margin: 50px auto;
+        .no-sticky-logo {
+            display: flex;
+            justify-content: center;
+            .retina-logo,
+            .mobile-logo {
+                display: none;
+            }
+        }
+    }
+    .navbar-nav {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        li {
+            float: none;
+            padding: 7px 0;
+            position: relative;
+            margin: 0;
+            a {
+                color:#fff;
+            }
+            .sub-menu {
+                padding-left: 20px;
+            }
+        }
+    }
+    .copyright-text {
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+//sidebar menu
+.mobile-menu-container {
+    .mobile-sidebar {
+        display: none;
+        visibility: hidden;
+    }
+}

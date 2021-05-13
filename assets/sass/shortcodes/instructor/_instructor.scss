@@ -1,0 +1,24 @@
+div.bp-element-list-instructors {
+    &.layout-slider-2 {
+        .wrap-element  {
+            .element-title {
+                width:calc(100% - 400px - 72px);
+                padding-top:127px;
+            }
+            .instructor-item {
+               .instructor-text {
+                  position: relative;
+                  left: 2px;
+                   .info {
+                      margin-bottom: 27px;
+                   }
+                   .socials {
+                      .social-item {
+                          margin: 6px 5px;
+                      }
+                   }
+               }
+            }
+        }
+    }
+}

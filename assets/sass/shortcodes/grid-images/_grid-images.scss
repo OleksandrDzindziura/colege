@@ -1,0 +1,19 @@
+.bp-element-grid-images {
+    &.layout-images-slider{
+        &.border-bottom {
+            padding-bottom: 60px;
+            border-bottom: 1px solid rgba(124, 124, 124, 0.2);
+            margin-bottom: 48px;
+        }
+        .slide-image {
+            .wrap-arrow-slick {
+                .arow-slick {
+                    top: -21px;
+                    &.prev-slick {
+                        left: 3px;
+                    }
+                }
+            }
+        }
+    }
+}

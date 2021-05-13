@@ -1,0 +1,82 @@
+body.learnpress.course-item-popup {
+  #course-item-content-header {
+    background-color: $thim_body_primary_color;
+    .lp-button-back {
+      .button {
+        background-color: darken($thim_body_primary_color, 10%);
+      }
+    }
+
+  }
+  #learn-press-content-item {
+    .learn-press-form {
+      &.completed {
+        p {
+          color: $thim_body_primary_color;
+        }
+      }
+    }
+    #content-item-quiz {
+      .lp-quiz-buttons {
+        form {
+          button {
+            background-color: $thim_body_primary_color;
+            &:hover {
+              background-color: darken($thim_body_primary_color, 10%);
+            }
+          }
+        }
+      }
+      .answer-options {
+        .answer-option {
+          input[type="radio"],
+          input[type="checkbox"] {
+            &:after {
+              border-color: $thim_body_primary_color;
+            }
+            &:checked ~ .option-title:before {
+              background-color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+    }
+  }
+  #learn-press-course-curriculum {
+    .curriculum-sections {
+      .section {
+        .section-content {
+          .course-item {
+            &:before {
+              background-color: $thim_body_primary_color;
+            }
+
+          }
+        }
+      }
+    }
+    .learn-press-course-results-progress {
+      .items-progress,
+      .course-progress {
+        .lp-course-status {
+          .grade.passed {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+  }
+}
+
+body.learnpress.confirm #popup_container {
+  #popup_panel {
+    button,
+    input[type="button"],
+    input[type="submit"] {
+      background-color: $thim_body_primary_color;
+      &:hover {
+        background-color: darken($thim_body_primary_color, 10%);
+      }
+    }
+  }
+}

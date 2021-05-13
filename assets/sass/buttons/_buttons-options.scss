@@ -1,0 +1,20 @@
+/*
+ * Button style from customizer */
+.btn-primary {
+  background-color: $thim_body_primary_color;
+  color: #ffffff;
+  &:hover {
+    background-color: darken($thim_body_primary_color, 10%);
+  }
+}
+
+// button form contact
+.form-contactpage {
+  .btn-normal {
+    background: $thim_body_primary_color;
+    &:hover {
+      background: darken($thim_body_primary_color, 10%);
+    }
+  }
+
+}

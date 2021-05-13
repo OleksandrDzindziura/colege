@@ -1,0 +1,11 @@
+.bp-element-grid-images.layout-images-slider {
+  .slide-image {
+    .wrap-arrow-slick {
+      .arow-slick {
+        &:hover {
+          background: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+}

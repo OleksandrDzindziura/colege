@@ -1,0 +1,153 @@
+body {
+    &.responsive {
+        @media (max-width: 1400px) {
+            div.thim-background-gradient:before {
+                right:calc((100% - 1140px)/ 2 + 15px);
+            }
+            div.thim-wrap-video-box {
+                padding-left: 6.6%;
+            }
+            .thim-flex-service {
+                .thim-faq-wrap {
+                    width: calc(53% - ((100% - 1200px)/ 2) - 30px);
+                }
+            }
+        }
+        @media (max-width: 1200px) {
+            .thim-flex-service {
+                .thim-faq-wrap {
+                    width: 50%;
+                    padding:  8px 20px!important;
+                }
+                .thim-wrap-video-box {
+                    width: 50%;
+                    padding:  8px 20px!important;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+            div.thim-background-testimonials {
+                background-image:unset !important;
+            }
+        }
+        @media (max-width: 1024px) {
+            div.thim-background-gradient:before {
+                right:0;
+            }
+            .thim-flex-service {
+                .thim-faq-wrap {
+                    width: 100%;
+                }
+                .thim-wrap-video-box {
+                    width: 100%;
+                }
+            }
+
+            .thim-position-form-course {
+                right: 0;
+            }
+            div.book-lesson-image {
+                width: 50%;
+                padding-left:15px;
+                padding-right: 15px;
+            }
+            div.book-lesson-form-contact {
+                width: 50% !important;
+                padding-left:15px;
+                padding-right: 15px;
+            }
+            .thim-style-why-choose-us {
+                .why-choose-us-img {
+                    width: 50%;
+                }
+                .why-choose-us-icon {
+                    width: 50%;
+                    & > div {
+                        margin-top: 40px !important;
+                        padding-left: 15px !important;
+                    }
+                }
+            }
+        }
+        @media (max-width: 815px) {
+            .thim-style-why-choose-us {
+                .why-choose-us-img {
+                    width: 100%;
+                }
+                .why-choose-us-icon {
+                    width: 100%;
+                }
+            }
+            .thim-position-form-course {
+                position: relative;
+                top: 0;
+                .thim-form-course {
+                    width: 100%;
+                }
+            }
+            .thim-hiden-background-tablet {
+                background-image: unset !important;
+            }
+            div.thim-faq-wrap {
+                width: 100%;
+            }
+            div.thim-wrap-video-box {
+                width: 100%;
+            }
+
+            div.book-lesson-image {
+                width: 100% !important;
+            }
+            div.book-lesson-form-contact {
+                width: 100% !important;
+            }
+            div.thim-background-baner {
+                background-image: unset!important;
+                &:before {
+                    display: none;
+                }
+                &:after {
+                    display: none;
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            div.thim-background-gradient:before {
+                border-top-right-radius: 0;
+                border-bottom-right-radius:0;
+            }
+            div.thim-background-testimonials:before {
+                border-top-left-radius:0;
+                border-bottom-left-radius:0;
+            }
+            .thim-subscribe-email {
+                flex-direction: column;
+                .EMAIL-label {
+                    justify-content: center;
+                }
+                button[type="submit"] {
+                    margin-bottom: 0;
+                }
+            }
+            .thim-background-baner {
+                text-align: center;
+            }
+            div.book-lesson-image {
+                .wpb_single_image {
+                    margin-right: 0;
+                }
+            }
+        }
+        @media (max-width: 600px) {
+            .thim-subscribe-email {
+                border-radius: 0;
+                .EMAIL-label input[type="email"] {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+

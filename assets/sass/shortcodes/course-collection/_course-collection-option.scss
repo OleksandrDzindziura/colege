@@ -1,0 +1,63 @@
+div.bp-element-course-collections {
+    &.layout-slider {
+        .slide-course {
+            .item-slick {
+                .course-item {
+                    .content {
+                        .title a:hover {
+                            color: $thim_body_primary_color;
+                        }
+                    }
+                }
+            }
+            .wrap-arrow-slick {
+                .arow-slick:hover {
+                    background: $thim_body_primary_color;
+                }
+            }
+        }
+    }
+    &.layout-slider-2 {
+        .slide-category-course {
+
+            .wrap-arrow-slick {
+
+                .arow-slick {
+
+                    &:hover {
+                        color: $thim_body_primary2_color;
+                    }
+
+                }
+            }
+
+        }
+
+        .course-item {
+            &.color-1 {
+                .content {
+                    &::before {
+                        background: $thim_body_primary_color;
+                        background: -webkit-linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                        background: -o-linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                        background: -moz-linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                        background: linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                    }
+                }
+            }
+
+            &.color-2 {
+                .content {
+                    &::before {
+                        background: $thim_body_primary2_color;
+                        background: -webkit-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                        background: -o-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                        background: -moz-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                        background: linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                    }
+                }
+            }
+
+        }
+    }
+}

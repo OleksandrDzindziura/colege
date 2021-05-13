@@ -1,0 +1,19 @@
+.bp-element-accordion {
+    .wrapper-accordion {
+        .item-accordion {
+            .title {
+                .accordion_icon:hover{
+                    &:before {
+                        color: $thim_body_primary_color;
+                    }
+                    &:after {
+                        color: $thim_body_primary_color;
+                    }
+                }
+                h3:hover {
+                    color: $thim_body_primary_color;
+                }
+            }
+        }
+    }
+}

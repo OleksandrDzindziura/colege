@@ -1,0 +1,17 @@
+div.bp-element-pricing-table {
+    &.layout-3 {
+        .wrap-element {
+            .pricing-item:hover{
+                .back-ground {
+                    background: $thim_body_primary_color;
+                }
+                .symbol {
+                    background: $thim_body_primary_color;
+                }
+                .btn-get-start {
+                    background: $thim_body_primary_color;
+                }
+            }
+        }
+    }
+}

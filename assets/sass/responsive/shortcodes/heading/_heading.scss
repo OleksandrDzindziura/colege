@@ -1,0 +1,66 @@
+body {
+    &.responsive {
+        @media(max-width: 991px){
+            div.thim-style-heading {
+                .head-area {
+                    .bp-element-heading{
+                        &.show-line-left{
+                            border: 0;
+                        }
+                        &.show-line-right{
+                            border: 0;
+                        }
+                    }
+                    &>div:last-child {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        @media (max-width: 800px) {
+            .thim-explore-eduma {
+                .head-area {
+                    .thim_width_100 {
+                        width: 100%;
+                    }
+                    .thim_width_30 {
+                        width: 30%;
+                    }
+                    .thim_width_70 {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            .thim-background-baner {
+                .bp-element-heading {
+                    .title {
+                        font-size: 40px !important;
+                        text-align: center;
+                    }
+                    .sub-title {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        @media (max-width: 480px) {
+            div.bp-element-heading {
+                div.mobile-line-heading {
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                }
+            }
+
+            div.thim-style-heading {
+                .head-area {
+                    &>div:last-child {
+                        margin-top: 0px;
+                    }
+                }
+            }
+
+        }
+    }
+}

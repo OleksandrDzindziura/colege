@@ -1,0 +1,17 @@
+.yikes-easy-mc-form {
+  &.layout-footer {
+    label {
+      input[type="email"] {
+        &:focus {
+          border-color: $thim_body_primary_color;
+        }
+      }
+    }
+    button {
+      background-color: $thim_body_primary_color;
+      &:hover{
+        background-color: darken($thim_body_primary_color, 10%);
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+div.bp-element-accordion {
+    .wrapper-accordion {
+        .item-accordion {
+            .title {
+                h3 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    &.layout-3 {
+        .wrap-element {
+            .item {
+                .answer {
+                    padding-bottom: 33px;
+                }
+            }
+        }
+    }
+}

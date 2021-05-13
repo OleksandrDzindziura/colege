@@ -1,0 +1,21 @@
+body{
+    &.responsive{
+        @media (max-width: 800px) {
+            div.thim-learn-area  {
+                >.wpb_column {
+                    width: 100%;
+                    >.vc_column-inner {
+                        padding-left: 15px !important;
+                        padding-right: 15px !important;
+                        border-left: none !important;
+                    }
+                }
+                .bp-element-icon-box {
+                    .icon-box {
+
+                    }
+                }
+            }
+        }
+    }
+}

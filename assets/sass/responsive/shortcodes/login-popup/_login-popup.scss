@@ -1,0 +1,38 @@
+body {
+    &.responsive {
+        @media (max-width: 1400px) {
+            div.bp-element-login-popup {
+                .login-links {
+                    .user-info{
+                        left:auto;
+                        right: 0;
+                    }
+                }
+            }
+        }
+        @media (min-width: 1025px) {
+            div.bp-element-login-popup {
+                .login-links {
+                    &:hover {
+                        .user-info {
+                            margin-top: 20px;
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 600px) {
+            div.bp-element-login-popup {
+                .login-links {
+                    .user-info{
+                        left:auto;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

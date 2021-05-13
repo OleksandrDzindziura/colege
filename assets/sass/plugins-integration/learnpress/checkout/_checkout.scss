@@ -1,0 +1,149 @@
+.learnpress-page {
+  .button-continue-guest-checkout {
+    .lp-button-guest-checkout {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #fff;
+      text-transform: uppercase;
+      width: auto;
+      margin-right: auto;
+      margin-left: auto;
+      background: #f8b944;
+      padding: 0 35px;
+      cursor: pointer;
+      border: none;
+      border-radius: 25px;
+      transition: all .2s;
+      &:hover {
+        background: darken(#f8b944, 10%);
+      }
+    }
+  }
+  .learn-press-checkout {
+    h4 {
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    #learn-press-order-review {
+      margin-bottom: 50px;
+    }
+    .learn-press-checkout-comment {
+      margin-bottom: 50px;
+      textarea {
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #7c7c7c;
+      }
+    }
+    .learn-press-checkout-payment {
+      #checkout-guest-email {
+        margin-top: 50px;
+        background-color: #fafafa;
+        input[type="email"] {
+          border: 1px solid #e6e6e6;
+          border-radius: 5px;
+          padding: 0 20px;
+          font-weight: 300;
+          margin-bottom: 15px;
+          line-height: 50px;
+          width: 330px;
+          font-size: 16px;
+          color: #7c7c7c;
+        }
+      }
+      .place-order-action {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        button[type="submit"] {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.5;
+          color: #fff;
+          text-transform: uppercase;
+          width: auto;
+          cursor: pointer;
+          margin-right: auto;
+          margin-left: auto;
+          background: #f8b944;
+          padding: 0 35px;
+          border: none;
+          border-radius: 25px;
+          transition: all .2s;
+          &:hover {
+            background: darken(#f8b944, 10%);
+          }
+        }
+        button[type="button"] {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.5;
+          color: #1e1e1e;
+          text-transform: uppercase;
+          width: auto;
+          cursor: pointer;
+          margin-right: auto;
+          margin-left: auto;
+          padding: 0 35px;
+          border: 1px solid #e7e7e7;
+          border-radius: 25px;
+          transition: all .2s;
+        }
+      }
+    }
+  }
+}
+
+table.lp-list-table {
+  border: 1px solid #e1e1e1;
+  thead {
+    tr {
+      th {
+        background-color: #fafafa;
+        color: #292929;
+        font-weight: 400;
+        border-bottom: 1px solid #e1e1e1;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        a {
+          color: #7c7c7c;
+          font-size: 18px;
+          font-weight: 300;
+          &:hover {
+            color: #292929;
+          }
+        }
+      }
+    }
+  }
+  tfoot {
+    th {
+      font-weight: 400;
+      color: #292929;
+    }
+  }
+  .cart-item {
+    .course-name {
+      a {
+        color: #7c7c7c;
+        font-size: 18px;
+        font-weight: 300;
+        &:hover {
+          color: #292929;
+        }
+      }
+    }
+  }
+  td {
+    font-size: 18px;
+  }
+}

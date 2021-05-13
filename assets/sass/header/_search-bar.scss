@@ -1,0 +1,147 @@
+header.header_v3 {
+    .header-wrapper {
+        .search-bar {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            padding: 0 50px;
+            .widget_categories {
+                position: relative;
+                .widget-title {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 1.5;
+                    text-transform: uppercase;
+                    padding-right: 40px;
+                    position: relative;
+                    cursor: pointer;
+                    margin-bottom: 0;
+                    &:after {
+                        content: '\f123';
+                        font-family: Ionicons;
+                        font-size: 10px;
+                        color: #fff;
+                        line-height: 1;
+                        position: absolute;
+                        top: 4px;
+                        right: 21px;
+                        transition: all .2s;
+                    }
+
+                    &:hover:after {
+                        color: #efc452;
+                    }
+                }
+                ul {
+                    padding: 5px 20px;
+                    position: absolute;
+                    top: calc(100% + 20px);
+                    left: -20px;
+                    background: #fff;
+                    width: 160px;
+
+                    li {
+                        padding: 10px 0;
+
+                        & + li {
+                            border-top: 1px solid rgba(138,138,138,.2);
+                        }
+
+                        a {
+                            font-weight: 300;
+                            font-size: 14px;
+                            line-height: 1.5;
+                            color: #292929;
+                            text-transform: none;
+                            padding: 10px 0;
+                            transition: all .2s;
+
+                            &:hover {
+                                color: #f7c370;
+                            }
+                        }
+                    }
+
+                }
+            }
+            .widget_search {
+                flex-grow: 1;
+                max-width: 498px;
+                position: relative;
+                .search-form {
+                    flex-grow: 1;
+                    max-width: 498px;
+                    position: relative;
+
+                    label {
+                        margin: 0;
+                        width: 100%;
+
+                        input {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 1.5;
+                            color: #fff;
+                            width: 100%;
+                            min-width: 80px;
+                            height: 38px;
+                            border: none;
+                            background: rgba(255, 255, 255, .15);
+                            border-radius: 5px;
+                            padding: 0 45px 0 15px;
+                            font-family: inherit;
+
+                            &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                                color: #fff;
+                            }
+                            &::-moz-placeholder { /* Firefox 19+ */
+                                color: #fff;
+                            }
+                            &:-ms-input-placeholder { /* IE 10+ */
+                                color: #fff;
+                            }
+                            &:-moz-placeholder { /* Firefox 18- */
+                                color: #fff;
+                            }
+
+                            &:focus {
+                                background: rgba(255, 255, 255, .3);
+                            }
+                        }
+                    }
+
+                    .search-submit {
+                        font-size: 20px;
+                        color: #fff;
+                        line-height: 38px;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 45px;
+                        height: 100%;
+                        transition: all .2s;
+                        background: 0 0!important;
+                        border: none;
+                        font-size: 0;
+                        &:hover {
+                            color: #efc452;
+                        }
+                    }
+                    &:after {
+                        content: "\f002";
+                        font: normal normal normal 14px/1 FontAwesome;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        width: 40px;
+                        height: 42px;
+                        text-align: center;
+                        line-height: 42px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.learnpress-page {
+  .button-continue-guest-checkout {
+    .lp-button-guest-checkout {
+      background: $thim_body_primary_color;
+      &:hover {
+        background: darken($thim_body_primary_color, 10%);
+      }
+    }
+  }
+}

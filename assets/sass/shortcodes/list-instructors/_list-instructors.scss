@@ -1,0 +1,9 @@
+div.bp-element-list-instructors {
+    &.layout-slider-2 {
+        .instructor-item {
+            .instructor-image {
+                min-height: 480px;
+            }
+        }
+    }
+}

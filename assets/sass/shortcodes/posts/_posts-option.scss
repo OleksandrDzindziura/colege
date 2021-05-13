@@ -1,0 +1,104 @@
+.bp-element.bp-element-posts {
+  &.layout-list-1 {
+    .list-posts {
+      .item {
+        .content {
+          .title {
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+
+          .list-meta {
+            .post-date {
+              i {
+                color: $thim_body_primary_color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.layout-slider {
+    .slide-posts {
+
+      .wrap-arrow-slick {
+        .arow-slick {
+          &:hover {
+            background: $thim_body_primary_color;
+            border-color: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+
+    .post-item {
+
+      .content {
+        .title {
+          a {
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+
+        .link {
+          &:hover {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+  }
+  &.layout-list-2 {
+    .list-post {
+      .item {
+        .content {
+          .title {
+            a {
+              &:hover {
+                color: $thim_body_primary_color;
+              }
+            }
+          }
+          .list-meta {
+            .post-date {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.layout-slider {
+      .post-item {
+          .content {
+              .date {
+                  font-family: $thim_font_body_font_family;
+              }
+              .title {
+                  a {
+                      font-family: $thim_font_body_font_family;
+                  }
+              }
+              .description {
+                  font-family: $thim_font_body_font_family;
+              }
+              .link {
+                  font-family: $thim_font_body_font_family;
+              }
+          }
+      }
+  }
+}
+
+.thim-last-news {
+    .bp-element-heading {
+        .sub-title {
+              border-bottom: 1px solid $thim_body_primary_color;
+              color: $thim_body_primary_color;
+        }
+    }
+}

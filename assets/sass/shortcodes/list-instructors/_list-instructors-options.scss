@@ -1,0 +1,63 @@
+.bp-element.bp-element-list-instructors {
+  &.layout-grid {
+    .btn-loadmore-teacher {
+      background: $thim_body_primary_color;
+      &:hover {
+        background: darken($thim_body_primary_color, 10%);
+      }
+    }
+    .item-teacher {
+      .content {
+        .social-link {
+          .item {
+            &:hover {
+              background: $thim_body_primary_color;
+              border-color: $thim_body_primary_color;
+            }
+          }
+        }
+        .info {
+          .name {
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.layout-slider {
+    .slide-teachers {
+      .wrap-dot-slick {
+        .dots-slick {
+          li {
+            &.slick-active {
+              span {
+                background: $thim_body_primary_color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .teacher-item {
+      .info {
+        .name {
+          a {
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+        .social-link {
+          a {
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

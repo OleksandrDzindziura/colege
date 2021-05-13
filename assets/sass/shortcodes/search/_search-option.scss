@@ -1,0 +1,17 @@
+.bp-element.bp-element-search {
+  &.layout-1 {
+    .search-button {
+      &:hover:before {
+        color: $thim_body_primary_color;
+      }
+    }
+    .form-search {
+      .search-field {
+        border-bottom-color: $thim_body_primary_color;
+      }
+    }
+    .close-form:hover {
+      color: $thim_body_primary_color;
+    }
+  }
+}

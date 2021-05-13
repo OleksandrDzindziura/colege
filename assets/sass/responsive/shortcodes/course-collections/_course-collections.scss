@@ -1,0 +1,35 @@
+body {
+    &.responsive {
+        @media (max-width: 600px) {
+            div.bp-element-course-collections{
+                &.layout-slider, &.layout-slider-2 {
+
+                        .wrap-arrow-slick {
+                            .arow-slick {
+                                &.next-slick {
+                                    right: 20px;
+                                }
+                                &.prev-slick {
+                                    left: 20px;
+                                }
+                            }
+                        }
+
+                }
+
+            }
+        }
+        
+        @media (max-width: 480px) {
+            div.bp-element-course-collections {
+                &.layout-slider-2 {
+                    .wrap-arrow-slick {
+                        .arow-slick {
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

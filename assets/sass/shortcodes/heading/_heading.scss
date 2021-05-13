@@ -1,0 +1,23 @@
+div.bp-element-heading {
+    .title {
+        letter-spacing: inherit;
+    }
+    .sub-title {
+        display: block;
+    }
+    &.show-line-left {
+       border-left:1px solid rgba(124, 124, 124, 0.2);
+    }
+    &.show-line-right {
+        border-right:1px solid rgba(124, 124, 124, 0.2);
+    }
+    &.align-left {
+        .line {
+            margin: 0;
+        }
+    }
+    &.thim-flex-heading {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

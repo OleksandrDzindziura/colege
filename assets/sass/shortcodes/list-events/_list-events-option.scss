@@ -1,0 +1,105 @@
+.bp-element.bp-element-list-events {
+    &.layout-1 {
+        .item {
+            .content {
+                .title a:hover {
+                    color: $thim_body_primary_color;
+                }
+            }
+        }
+    }
+    &.layout-slider-3 {
+        .background {
+            .overlay {
+                background: $thim_body_primary_color;
+                background: -webkit-linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color);
+                background: -o-linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color);
+                background: -moz-linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color);
+                background: linear-gradient(left, $thim_body_primary_color, $thim_body_primary2_color);
+            }
+        }
+    }
+    &.layout-slider-2 {
+        .slide-events {
+            .wrap-arrow-slick {
+                .arow-slick {
+                    &:hover {
+                        color: #f7c370;
+                    }
+                }
+            }
+        }
+        .event-item {
+            &.color-1 {
+                &::before {
+                    background: $thim_body_primary_color;
+                    background: -webkit-linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                    background: -o-linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                    background: -moz-linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                    background: linear-gradient(left, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                }
+                .date {
+                    &::before {
+                        background: $thim_body_primary_color;
+                        background: -webkit-linear-gradient(right, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                        background: -o-linear-gradient(right, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                        background: -moz-linear-gradient(right, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                        background: linear-gradient(right, $thim_body_primary_color, darken($thim_body_primary_color, 10%));
+                    }
+                }
+            }
+            &.color-2 {
+                &::before {
+                    background: $thim_body_primary2_color;
+                    background: -webkit-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                    background: -o-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                    background: -moz-linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                    background: linear-gradient(left, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                }
+
+                .date {
+                    &::before {
+                        background: $thim_body_primary2_color;
+                        background: -webkit-linear-gradient(right, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                        background: -o-linear-gradient(right, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                        background: -moz-linear-gradient(right, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                        background: linear-gradient(right, $thim_body_primary2_color, darken($thim_body_primary2_color, 10%));
+                    }
+                }
+            }
+            &:hover {
+                &.color-1 {
+                    .pic {
+                        border-color: $thim_body_primary_color;
+                    }
+                }
+                &.color-2 {
+                    .pic {
+                        border-color: $thim_body_primary2_color;
+                    }
+                }
+                .text {
+                    .title {
+                        a {
+                            &:hover {
+                                color: $thim_body_primary2_color;
+                            }
+                        }
+                    }
+
+                    .author {
+                        .info {
+                            .name {
+                                a {
+                                    &:hover {
+                                        color: $thim_body_primary2_color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

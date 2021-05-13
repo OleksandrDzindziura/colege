@@ -1,0 +1,22 @@
+body {
+    &.responsive {
+        @media (max-width: 767px) {
+            .bp-element-grid-images {
+                .grid {
+                    .grid-sizer {
+                        width: 33.33%;
+                    }
+                    .grid-item {
+                        width: 33.33%;
+                    }
+                    .size_3x2 {
+                        width: 100%;
+                    }
+                    .size_2x2 {
+                        width: 66.67%;
+                    }
+                }
+            }
+        }
+    }
+}

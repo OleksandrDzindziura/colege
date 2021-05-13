@@ -1,0 +1,80 @@
+/*\
+ *
+ * Detail event
+ *
+\*/
+div.bl-detail-event {
+  .heading {
+    .description {
+      a {
+        color: $thim_body_primary_color;
+      }
+    }
+  }
+
+  .info {
+    .contact {
+      .list-contact {
+        .contact-item {
+          .description {
+            span {
+              a {
+                &:hover {
+                  color: $thim_body_primary_color;
+                }
+              }
+
+              i {
+                color: $thim_body_primary_color;
+              }
+            }
+          }
+        }
+      }
+
+
+      .btn-join {
+        background: $thim_body_primary_color;
+
+        &:hover {
+          background: darken($thim_body_primary_color,10%);
+        }
+      }
+    }
+  }
+
+  .text {
+    blockquote {
+      &::before {
+        background: $thim_body_primary_color;
+      }
+    }
+  }
+
+  .tags-and-share {
+    .tags {
+      a {
+        &:hover {
+          color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+}
+
+/*\
+ *
+ * Author event
+ *
+\*/
+div.bl-author-event {
+  .text {
+    .name {
+      a {
+        &:hover {
+          color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+}

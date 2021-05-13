@@ -1,0 +1,32 @@
+rs-module {
+  rs-bullets.custom {
+    .tp-bullet {
+      &.selected {
+        background-color: $thim_body_primary_color;
+        &:before {
+          border-color: $thim_body_primary_color;
+        }
+      }
+      &:hover {
+        background-color: $thim_body_primary_color;
+      }
+    }
+  }
+}
+.rev_slider {
+  .custom {
+    &.tp-bullets {
+      .tp-bullet {
+        &.selected {
+          background-color: $thim_body_primary_color;
+          &:before {
+            border-color: $thim_body_primary_color;
+          }
+        }
+        &:hover {
+          background-color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+}

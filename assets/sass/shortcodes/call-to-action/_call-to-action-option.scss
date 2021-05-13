@@ -1,0 +1,55 @@
+.bp-element.bp-element-call-to-action {
+  &.layout-4 {
+    .inner-action {
+      .content-text {
+        .call-action-button {
+          .readmore {
+            background: $thim_body_primary_color;
+            &:hover {
+              background-color: darken($thim_body_primary_color, 10%);
+            }
+          }
+          .call-open {
+            border-color: $thim_body_primary_color;
+            i {
+              border-color: $thim_body_primary_color;
+              background: $thim_body_primary_color;
+            }
+            &:hover {
+              background:$thim_body_primary_color;
+              i {
+                color:$thim_body_primary_color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.layout-5 {
+    .inner-action {
+      .content-text {
+        background: -webkit-linear-gradient(left, $thim_body_primary_color, lighten($thim_body_primary_color, 10%));
+        background: -o-linear-gradient(left, $thim_body_primary_color, lighten($thim_body_primary_color, 10%));
+        background: -moz-linear-gradient(left, $thim_body_primary_color, lighten($thim_body_primary_color, 10%));
+        background: linear-gradient(left, $thim_body_primary_color, lighten($thim_body_primary_color, 10%));
+
+        .call-action-button {
+          .btn-get-started {
+            &:hover {
+              background: $thim_body_primary2_color;
+            }
+          }
+
+          .btn-sign-up {
+
+            &:hover {
+              background: $thim_body_primary2_color;
+              border-color: $thim_body_primary2_color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

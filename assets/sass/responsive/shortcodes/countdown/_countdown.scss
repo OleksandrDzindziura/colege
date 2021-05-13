@@ -1,0 +1,31 @@
+body  {
+    &.responsive {
+          @media (max-width: 600px) {
+              .bp-element-countdown {
+                  .wrap-countdown {
+                     .countdown-show4 {
+                       display: grid;
+                       grid-template-columns: repeat(2,1fr);
+                       grid-gap: 30px;
+                     }
+                    .countdown-row {
+
+                      .countdown-section {
+
+                        &::after {
+                          font-size: 55px;
+                        }
+
+                        .countdown-amount {
+                          font-size: 55px;
+                        }
+
+                        .countdown-period {
+                        }
+                      }
+                    }
+                  }
+              }
+          }
+    }
+}

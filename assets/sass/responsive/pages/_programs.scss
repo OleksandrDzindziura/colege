@@ -1,0 +1,110 @@
+body {
+    &.responsive {
+        @media (max-width: 1400px) {
+            div.bp-element-heading {
+                &.thim-program-heading {
+                    .title {
+                        font-size: 35px !important;
+                    }
+                }
+            }
+        }
+        @media (max-width: 1024px) {
+
+            div.thim-bg-full-left>.wpb_column>.vc_column-inner {
+                padding-left: 32px !important;
+            }
+        }
+        
+        @media (max-width: 815px) {
+            div.programs-menu {
+                .menu-programs-menu-container {
+                    .menu {
+                        li {
+                           padding-right: 40px;
+                        }
+                    }
+                }
+            }
+            div.tablet-flex>.vc_column-inner>.wpb_wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .absolute-top-right {
+                position: relative;
+                top: 0;
+                right:0;
+                @include transform(translate(0,0));
+                &.bp-element-button{
+                    text-align: left;
+                }
+            }
+
+            div.bl-breadcrumb {
+                display: inline-block;
+            }
+            .bp-element-list-courses.layout-list-2 {
+                .list-courses-2 {
+                    .course-item {
+                        .pic {
+                            width: 100%;
+                        }
+                        .text {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            div.tablet-padding-0 >.vc_column-inner  {
+                padding-top: 0 !important;
+            }
+
+            div.tablet-padding {
+                padding-bottom: 30px;
+            }
+            div.tablet-pd-15>div {
+                padding-left: 15px !important;
+            }
+
+        }
+
+        @media (max-width: 767px) {
+            div.menu-programs-menu-container {
+                .menu {
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    grid-gap: 5px;
+                }
+            }
+
+            div.border-0>div {
+                 border: 0 !important;
+             }
+            div.mobile-pd-15>div {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+            div.mobile-pd-30>div {
+                padding-left: 30px !important;
+                padding-right: 30px !important;
+            }
+            div.bl-contact-form {
+                label {
+                    width: 100%;
+                }
+            }
+
+            div.bp-element-heading{
+                &.thim-heading-apply{
+                    .title {
+                        font-size: 40px !important;
+                        line-height: 40px !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.bp-element {
+  &.bp-element-brands {
+    .slick-slider {
+      .slick-track {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .item-brands {
+          padding: 0 15px;
+          cursor: pointer;
+          img {
+            opacity: 0.6;
+            filter:grayscale(100%);
+            transition:all .5s;
+            margin: auto;
+            width: auto;
+            max-width: 100%;
+          }
+          &:hover {
+            img {
+              opacity: 1;
+              transform: scale(1.05);
+            }
+          }
+        }
+      }
+    }
+  }
+}

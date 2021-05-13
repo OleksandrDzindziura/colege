@@ -1,0 +1,35 @@
+.bp-element-login-form {
+    .login-form-wrap {
+        form {
+          input[type="text"],
+          input[type="email"],
+          input[type="password"] {
+            &:focus {
+              border-color: $thim_body_primary_color;
+            }
+          }
+          .wrap-fields {
+            .login-submit {
+              input[type="submit"] {
+                background-color: $thim_body_primary_color;
+              }
+            }
+          }
+        }
+    }
+}
+
+/* form register */
+.become-teacher-form {
+
+    form {
+        button {
+            background: $thim_body_primary_color;
+            &:hover {
+                background: darken($thim_body_primary_color,20%);
+            }
+        }
+
+    }
+
+}

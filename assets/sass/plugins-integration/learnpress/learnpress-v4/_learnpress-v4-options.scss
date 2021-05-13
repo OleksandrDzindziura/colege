@@ -1,0 +1,76 @@
+.lp-profile.lp-4 #learn-press-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs li.active::before{
+	background: $thim_body_primary_color;
+}
+
+.lp-profile.lp-4 #learn-press-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs li:hover::before{
+	background: $thim_body_primary_color;
+}
+.lp-profile.lp-4 #learn-press-profile #profile-nav .lp-profile-nav-tabs li.active > a i{
+	color: $thim_body_primary_color;
+}
+.lp-profile.lp-4 #learn-press-profile #profile-nav .lp-profile-nav-tabs > li > a > i{
+	color: $thim_body_primary_color;
+}
+.lp-profile.lp-4 #learn-press-profile #profile-nav .lp-profile-nav-tabs li:hover > a i{
+	color: $thim_body_primary_color;
+}
+.learn-press-tabs .learn-press-tabs__checker:nth-child(2):checked ~ .learn-press-tabs__nav .learn-press-tabs__tab:nth-child(2)::before {
+    background: $thim_body_primary_color;
+}
+.learn-press-tabs .learn-press-tabs__checker:nth-child(2):checked ~ .learn-press-tabs__nav .learn-press-tabs__tab:nth-child(2) label a {
+    color: $thim_body_primary_color;
+}
+.learn-press-tabs .learn-press-tabs__checker:nth-child(1):checked ~ .learn-press-tabs__nav .learn-press-tabs__tab:nth-child(1)::before {
+    background: $thim_body_primary_color;
+}
+.learn-press-tabs .learn-press-tabs__checker:nth-child(1):checked ~ .learn-press-tabs__nav .learn-press-tabs__tab:nth-child(1) label a {
+    color: $thim_body_primary_color;
+}
+.learn-press-tabs .learn-press-tabs__checker:nth-child(3):checked ~ .learn-press-tabs__nav .learn-press-tabs__tab:nth-child(3)::before {
+    background: $thim_body_primary_color;
+}
+.learn-press-tabs .learn-press-tabs__checker:nth-child(3):checked ~ .learn-press-tabs__nav .learn-press-tabs__tab:nth-child(3) label a {
+    color: $thim_body_primary_color;
+}
+.learn-press-tabs .learn-press-tabs__checker:nth-child(4):checked ~ .learn-press-tabs__nav .learn-press-tabs__tab:nth-child(4)::before {
+    background: $thim_body_primary_color;
+}
+.learn-press-tabs .learn-press-tabs__checker:nth-child(4):checked ~ .learn-press-tabs__nav .learn-press-tabs__tab:nth-child(4) label a {
+    color: $thim_body_primary_color;
+}
+.lp-profile.lp-4 #learn-press-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs li.wishlist:hover a::before {
+    color: $thim_body_primary_color;
+}
+.lp-profile.lp-4 #learn-press-profile #profile-content #profile-content-orders .profile-orders .profile-recover-order .order-recover .button-recover-order{
+    background: $thim_body_primary_color;
+}
+.lp-profile.lp-4 #learn-press-profile #profile-content #profile-content-orders .profile-orders .profile-recover-order .order-recover .button-recover-order:hover{
+    background: darken($thim_body_primary_color, 15%);
+}
+.single-lp_course #lp-single-course.lp-4 .course-curriculum .curriculum-sections .section.closed .section-header .section-left .section-toggle i{
+    color: $thim_body_primary_color;
+}
+.single-lp_course #lp-single-course.lp-4 #learn-press-course-tabs .course-nav-tabs .course-nav.active::before{
+    background: $thim_body_primary_color;
+}
+.single-lp_course #lp-single-course.lp-4 #learn-press-course-tabs .course-nav-tabs .course-nav.active label{
+    color: $thim_body_primary_color !important;
+}
+.single-lp_course #lp-single-course.lp-4 #learn-press-course-tabs .course-nav-tabs .course-nav:hover label{
+    color: $thim_body_primary_color ;
+}
+.single-lp_course #lp-single-course.lp-4 #popup-course #popup-sidebar .course-curriculum .curriculum-sections .section .section-content .course-item .section-item-link .course-item-meta .count-questions {
+    color: $thim_body_primary_color;
+}
+.single-lp_course #lp-single-course.lp-4 #popup-course #popup-header{
+    background: $thim_body_primary_color;
+}
+.single-lp_course #lp-single-course.lp-4 #popup-course #popup-header .thim-course-item-popup-right{
+    background: $thim_body_primary_color;
+}
+.single-lp_course #lp-single-course.lp-4 #learn-press-course .header-content .form-button-finish-course .lp-button,.single-lp_course #lp-single-course.lp-4 #popup-course #popup-content #learn-press-content-item .content-item-scrollable .content-item-wrap .content-item-summary .form-button.form-button-finish-course .lp-button {
+    background: $thim_body_primary_color;
+}
+.single-lp_course #lp-single-course.lp-4 #learn-press-course .header-content .form-button-finish-course .lp-button:hover,.single-lp_course #lp-single-course.lp-4 #popup-course #popup-content #learn-press-content-item .content-item-scrollable .content-item-wrap .content-item-summary .form-button.form-button-finish-course .lp-button:hover{
+    background: darken($thim_body_primary_color, 15%);
+}  

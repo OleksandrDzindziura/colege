@@ -1,0 +1,19 @@
+body {
+    &.responsive {
+        @media (max-width: 600px) {
+            .bp-element-testimonials {
+                &.layout-slider-2 {
+                    .slide-testimonial {
+                        .item-slick {
+                            .testimonial-content {
+                                .content {
+                                    font-size: 18px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

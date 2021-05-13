@@ -1,0 +1,80 @@
+body {
+    &.responsive {
+        @media (max-width: 1024px) {
+            div.bp-element-counter-box {
+                &.thim-line-right:before {
+                    display: none;
+                }
+            }
+        }
+        @media (max-width: 960px) {
+            // style page instructor
+            .thim-about-become-instructor-page {
+                .bp-element-counter-box {
+                    .counter-box {
+                        .number {
+                            .number_counter {
+                                font-size: 70px;
+                            }
+                        }
+                    }
+                }
+            }
+            //style page about
+            .thim-about-counter {
+                .bp-element-counter-box {
+                    .counter-box {
+                        .number {
+                            .number_counter {
+                                font-size: 70px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 800px) {
+            .thim-style-counter-box {
+                width: 960px;
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .thim-line-right {
+                    &:before {
+                        display: none;
+                    }
+
+                }
+            }
+
+        }
+        @media (max-width: 767px) {
+            .thim-style-counter-box {
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                grid-gap: 15px;
+            }
+            .bp-element-counter-box {
+                &.layout-2 {
+                    .counter-boxes {
+                        .item {
+                            .counter-box {
+                                justify-content: end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 600px) {
+            .thim-style-counter-box {
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-gap: 30px;
+            }
+        }
+    }
+}

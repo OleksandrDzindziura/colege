@@ -1,0 +1,77 @@
+
+
+/*\
+ *
+ * tabs layout-single-teacher
+ *
+\*/
+.bp-element-tabs.layout-single-teacher {
+  .thim-wrap-tabs {
+    .thim-nav-tabs {
+      .item-nav {
+        &.active {
+          &::after {
+            background: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*\
+ *
+ * tabs layout-default
+ *
+\*/
+.bp-element-tabs.layout-default {
+  .thim-wrap-tabs {
+    .thim-nav-tabs {
+      .item-nav {
+
+        &::before {
+          background: $thim_body_primary_color;
+        }
+
+        &.active {
+          color: $thim_body_primary_color;
+
+          &::after {
+            background: $thim_body_primary_color;
+          }
+        }
+
+        &:hover {
+          color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+}
+
+/*\
+ *
+ * tabs layout-step
+ *
+\*/
+.bp-element-tabs.layout-step {
+  .thim-wrap-tabs {
+    .thim-nav-tabs {
+      .item-nav {
+        .inside {
+          &:hover {
+            border-color: $thim_body_primary_color;
+            background: $thim_body_primary_color;
+          }
+        }
+
+        &.active {
+          .inside {
+            border-color: $thim_body_primary_color;
+            background: $thim_body_primary_color;
+          }
+        }
+      }
+    }
+  }
+}

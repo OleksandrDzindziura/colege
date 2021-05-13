@@ -1,0 +1,35 @@
+.yikes-easy-mc-form {
+  &.layout-footer {
+    display: flex;
+    margin-bottom: 25px;
+    label {
+      display: inline-block;
+      input[type="email"]{
+        width: 100%;
+        padding-left: 18px;
+        padding-right: 10px;
+        border: 1px solid rgba(137, 137, 137, 0.3);
+        background-color: transparent;
+        color: #ccc;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 300;
+        transition: all .5s;
+        &:focus {
+          border: 1px solid;
+        }
+      }
+    }
+    button {
+      height: 50px;
+      width: auto;
+      margin-top: 0;
+      padding: 0 18px;
+      font-family:inherit;
+      cursor: pointer;
+      color: #fff;
+      font-size: 16px;
+      transition: all .5s;
+    }
+  }
+}
